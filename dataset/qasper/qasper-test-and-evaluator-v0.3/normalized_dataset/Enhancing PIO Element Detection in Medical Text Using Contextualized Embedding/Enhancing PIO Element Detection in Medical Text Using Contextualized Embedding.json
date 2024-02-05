@@ -1,0 +1,10 @@
+{
+    "question": "how was the new dataset collected?",
+    "ground_truth": "The new dataset was collected from structured abstracts from PubMed and filtering abstract headings representative of the desired categories."
+}{
+    "question": "who annotated the new dataset?",
+    "ground_truth": "The P, I, and O labels were automatically assigned after clustering lemmatized labels from the structured abstract sections."
+}{
+    "question": "what shortcomings of previous datasets are mentioned?",
+    "ground_truth": "In the previous dataset a section labeled as P that contained more than one sentence would be split into multiple P sentences to be included in the dataset."
+}

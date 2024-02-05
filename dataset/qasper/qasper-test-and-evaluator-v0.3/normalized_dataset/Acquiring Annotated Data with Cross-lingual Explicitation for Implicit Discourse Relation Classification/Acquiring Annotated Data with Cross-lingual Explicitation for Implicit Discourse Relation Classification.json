@@ -1,0 +1,7 @@
+{
+    "question": "How much additional data do they manage to generate from translations?",
+    "ground_truth": "45680"
+}{
+    "question": "How many languages do they at most attempt to use to generate discourse relation labelled data?",
+    "ground_truth": "4"
+}

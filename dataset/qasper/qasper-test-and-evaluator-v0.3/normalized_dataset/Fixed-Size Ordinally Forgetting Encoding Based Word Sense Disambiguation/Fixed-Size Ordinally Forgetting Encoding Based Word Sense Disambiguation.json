@@ -1,0 +1,10 @@
+{
+    "question": "How much lower is the computational cost of the proposed model?",
+    "ground_truth": "By 45 times."
+}{
+    "question": "What is the state-of-the-art model?",
+    "ground_truth": "LSTM"
+}{
+    "question": "What is a pseudo language model?",
+    "ground_truth": "Pseudo language model abstracts context as embeddings using preceding and succeeding sequences."
+}

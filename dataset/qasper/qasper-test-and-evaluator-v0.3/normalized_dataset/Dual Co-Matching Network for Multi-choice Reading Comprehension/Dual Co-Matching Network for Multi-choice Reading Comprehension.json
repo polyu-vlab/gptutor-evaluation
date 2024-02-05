@@ -1,0 +1,7 @@
+{
+    "question": "Do they evaluate their model on datasets other than RACE?",
+    "ground_truth": "Yes, they also evaluate on the ROCStories\n(Spring 2016) dataset which collects 50k five sentence commonsense stories. "
+}{
+    "question": "What is their model's performance on RACE?",
+    "ground_truth": "Model's performance ranges from 67.0% to 82.8%."
+}

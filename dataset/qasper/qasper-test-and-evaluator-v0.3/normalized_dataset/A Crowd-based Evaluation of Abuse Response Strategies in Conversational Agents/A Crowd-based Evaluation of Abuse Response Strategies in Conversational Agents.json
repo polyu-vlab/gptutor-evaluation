@@ -1,0 +1,7 @@
+{
+    "question": "How do data-driven models usually respond to abuse?",
+    "ground_truth": "either by refusing politely, or, with flirtatious responses, or, by retaliating"
+}{
+    "question": "How many different strategies were evaluated?",
+    "ground_truth": "14"
+}

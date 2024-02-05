@@ -1,0 +1,13 @@
+{
+    "question": "what user traits are taken into account?",
+    "ground_truth": "The hierarchical personal values lexicon with 50  sets of words and phrases that represent the user's value."
+}{
+    "question": "does incorporating user traits help the task?",
+    "ground_truth": "only in the 806-class task predicting <= 25 clusters"
+}{
+    "question": "how many activities are in the dataset?",
+    "ground_truth": "29,494"
+}{
+    "question": "who annotated the datset?",
+    "ground_truth": "1000 people"
+}

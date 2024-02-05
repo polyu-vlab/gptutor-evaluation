@@ -1,0 +1,13 @@
+{
+    "question": "What are the parts of the \"multimodal\" resources?",
+    "ground_truth": "grouping, connectivity, and discourse structure "
+}{
+    "question": "Are annotators familiar with the science topics annotated?",
+    "ground_truth": "The annotation for AI2D was\ncreated by crowd-sourced non-expert annotators on AMT while AI2D-RST covers a subset of diagrams from AI2D annotated by trained experts"
+}{
+    "question": "How are the expert and crowd-sourced annotations compared to one another?",
+    "ground_truth": "by using them as features in classifying diagrams and\ntheir parts using various graph neural networks."
+}{
+    "question": "Who are considered trained experts?",
+    "ground_truth": "Annotators trained on multimodality theory"
+}

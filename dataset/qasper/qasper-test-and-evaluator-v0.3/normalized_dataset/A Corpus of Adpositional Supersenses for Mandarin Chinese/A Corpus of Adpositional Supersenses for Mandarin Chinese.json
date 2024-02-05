@@ -1,0 +1,7 @@
+{
+    "question": "What inter-annotator agreement did they obtain?",
+    "ground_truth": "Raw agreement is around .90 for this dataset."
+}{
+    "question": "What is the size of the corpus?",
+    "ground_truth": "20287"
+}

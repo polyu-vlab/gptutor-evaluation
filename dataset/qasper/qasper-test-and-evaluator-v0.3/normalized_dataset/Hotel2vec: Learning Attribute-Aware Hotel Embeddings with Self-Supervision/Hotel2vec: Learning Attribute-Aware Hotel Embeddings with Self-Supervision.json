@@ -1,0 +1,10 @@
+{
+    "question": "what is the cold-start problem?",
+    "ground_truth": "Dealing with hotels/items  that  appear infrequently or never in historical data and choosing appropriate weights for them is referred to as the \"cold start problem.\""
+}{
+    "question": "what other applications did they experiment in?",
+    "ground_truth": "None"
+}{
+    "question": "what dataset was used for training?",
+    "ground_truth": "A dataset containing 40M user click sessions with more than 1.1M unique hotels."
+}

@@ -1,0 +1,13 @@
+{
+    "question": "When the authors say their method largely outperforms the baseline, does this mean that the baseline performed better in some cases? If so, which ones?",
+    "ground_truth": "Baseline performed better in \"Fascinating\" and \"Jaw-dropping\" categories."
+}{
+    "question": "What baseline method was used?",
+    "ground_truth": "LinearSVM, LASSO, Weninger at al. (SVM)"
+}{
+    "question": "What was the motivation for using a dependency tree based recursive architecture?",
+    "ground_truth": "It performs better than other models predicting TED talk ratings."
+}{
+    "question": "How was a causal diagram used to carefully remove this bias?",
+    "ground_truth": "By confining to transcripts only and normalizing ratings to remove the effects of speaker's reputations, popularity gained by publicity, contemporary hot topics, etc."
+}

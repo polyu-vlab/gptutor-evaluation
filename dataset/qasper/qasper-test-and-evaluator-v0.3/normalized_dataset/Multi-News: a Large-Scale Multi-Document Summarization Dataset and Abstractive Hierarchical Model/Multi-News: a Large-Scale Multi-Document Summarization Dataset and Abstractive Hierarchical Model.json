@@ -1,0 +1,10 @@
+{
+    "question": "What results are obtained by their model?",
+    "ground_truth": "Their model ranked 2nd on R-1 metric and ranked 1st on R-2 and R-SU metrics"
+}{
+    "question": "What sources do the news come from?",
+    "ground_truth": "1500 news sites"
+}{
+    "question": "What is the size of Multi-news dataset?",
+    "ground_truth": "56216"
+}

@@ -1,0 +1,13 @@
+{
+    "question": "How do they preprocess Tweets?",
+    "ground_truth": "They removed retweets, URLs, emoticons, mentions of other users, hashtags; lowercased the text and removed the punctuation."
+}{
+    "question": "What kind of inference model do they build to estimate socioeconomic status?",
+    "ground_truth": "XGBoost, an ensemble of gradient-based decision trees algorithm "
+}{
+    "question": "How much data do they gather in total?",
+    "ground_truth": "They created 3 datasets with combined size of 37193."
+}{
+    "question": "How is the remotely sensed data annotated?",
+    "ground_truth": "The SES score was assigned by architects based on the satellite and Street View images of users' homes."
+}

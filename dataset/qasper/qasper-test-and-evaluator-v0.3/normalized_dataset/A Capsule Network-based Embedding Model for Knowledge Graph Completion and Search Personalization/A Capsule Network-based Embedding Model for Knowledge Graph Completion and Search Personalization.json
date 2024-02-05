@@ -1,0 +1,7 @@
+{
+    "question": "What size filters do they use in the convolution layer?",
+    "ground_truth": "1x3 filter size is used in convolutional layers."
+}{
+    "question": "By how much do they outperform state-of-the-art models on knowledge graph completion?",
+    "ground_truth": "0.105 in MRR and 6.1 percent points in Hits@10 on FB15k-237"
+}

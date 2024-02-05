@@ -1,0 +1,7 @@
+{
+    "question": "what evaluation metrics were used?",
+    "ground_truth": "EM-outline, EM-sec, Rouge"
+}{
+    "question": "what state of the art models did they compare with?",
+    "ground_truth": "IG CRF+GHD"
+}

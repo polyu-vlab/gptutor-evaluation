@@ -1,0 +1,7 @@
+{
+    "question": "what was their result?",
+    "ground_truth": "Pearson correlation on sadness test data is 0.52, on joy test data is .537, on anger test data is 0.47, on fear data is 0.561."
+}{
+    "question": "what dataset was used?",
+    "ground_truth": "Dataset of tweets provided for the shared task."
+}

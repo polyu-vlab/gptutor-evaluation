@@ -1,0 +1,7 @@
+{
+    "question": "How many domains do they create ontologies for?",
+    "ground_truth": "4"
+}{
+    "question": "How do they obtain syntax from raw documents in hrLDA?",
+    "ground_truth": "By extracting syntactically related noun phrases and their connections using a language parser."
+}

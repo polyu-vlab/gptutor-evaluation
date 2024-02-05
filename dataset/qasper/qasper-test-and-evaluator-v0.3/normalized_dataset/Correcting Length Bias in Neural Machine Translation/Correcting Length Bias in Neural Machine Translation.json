@@ -1,0 +1,10 @@
+{
+    "question": "How is a per-word reward tuned with the perceptron algorithm?",
+    "ground_truth": "Optimal per-word reward is found using SGD, which in this case is the same as the perceptron algorithm"
+}{
+    "question": "What methods are used to correct the brevity problem?",
+    "ground_truth": "Length normalization; Google’s NMT correction; constant word reward"
+}{
+    "question": "Why does wider beam search hurt NMT?",
+    "ground_truth": "Using a wider beam increases the probability of a shorter translation to remain in the top k variants and eventually score higher than any longer and more accurate translation variant"
+}

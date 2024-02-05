@@ -1,0 +1,7 @@
+{
+    "question": "How do they split the dataset when training and evaluating their models?",
+    "ground_truth": "SemEval-2017 task 8  dataset includes 325 rumorous conversation threads, and has been split into training, development and test sets. \nThe PHEME dataset provides 2,402 conversations covering nine events - in each fold, one event's conversations are used for testing, and all the rest events are used for training. "
+}{
+    "question": "How much improvement does their model yield over previous methods?",
+    "ground_truth": "Their model improves macro-averaged F1 by 0.017 over previous best model in Rumor Stance Classification and improves macro-averaged F1 by 0.03 and 0.015 on Multi-task Rumor Veracity Prediction on SemEval and PHEME datasets respectively"
+}

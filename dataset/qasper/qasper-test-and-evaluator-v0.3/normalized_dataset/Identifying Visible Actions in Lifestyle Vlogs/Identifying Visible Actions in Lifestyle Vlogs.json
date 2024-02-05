@@ -1,0 +1,7 @@
+{
+    "question": "How many videos did they use?",
+    "ground_truth": "177"
+}{
+    "question": "How long are the videos?",
+    "ground_truth": "On average videos are 16.36 minutes long"
+}

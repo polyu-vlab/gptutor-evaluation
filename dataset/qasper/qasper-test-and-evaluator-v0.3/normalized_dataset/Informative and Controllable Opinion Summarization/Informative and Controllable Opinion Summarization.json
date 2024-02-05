@@ -1,0 +1,7 @@
+{
+    "question": "What is the model trained?",
+    "ground_truth": "Condense-Abstract Framework, consisting of BiLSTM autoencoder and LSTM decoder with attention."
+}{
+    "question": "How large is the dataset used?",
+    "ground_truth": "3731 movies containing around 372353 reviews"
+}

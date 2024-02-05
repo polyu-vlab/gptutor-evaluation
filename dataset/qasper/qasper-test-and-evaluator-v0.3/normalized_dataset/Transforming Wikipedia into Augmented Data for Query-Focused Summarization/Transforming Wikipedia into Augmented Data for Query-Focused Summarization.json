@@ -1,0 +1,7 @@
+{
+    "question": "How does their BERT-based model work?",
+    "ground_truth": "It takes the query and document as input and encodes the query relevance, document context and salient meaning to be passed to the output layer to make the prediction."
+}{
+    "question": "How do they use Wikipedia to automatically collect a query-focused summarization dataset?",
+    "ground_truth": "They use the article and section titles to build a query and use the body text of citation as the summary."
+}

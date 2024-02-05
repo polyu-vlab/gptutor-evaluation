@@ -1,0 +1,7 @@
+{
+    "question": "what is the baseline model",
+    "ground_truth": "The baseline models used for this paper are based on the TF-IDF and LSI features and cosine similarity as a retrieval method."
+}{
+    "question": "What contribute to improve the accuracy on legal question answering task?",
+    "ground_truth": "Adding more features to the traditional sets such as TF-IDF, BM25 and PL2F as well as using voting in a ranking system help to improve accuracy on a legal question answering task"
+}

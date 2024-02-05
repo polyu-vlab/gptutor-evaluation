@@ -1,0 +1,7 @@
+{
+    "question": "What dicrimating features are discovered?",
+    "ground_truth": "Highest gain is obtained by average, maximum, minimum, and standard deviation. Probability and proportionality features have low information gain"
+}{
+    "question": "What results are obtained on the alternate datasets?",
+    "ground_truth": "Accuracy results range from 74.4 to 100 "
+}

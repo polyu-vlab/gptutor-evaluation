@@ -1,0 +1,13 @@
+{
+    "question": "What method did the highest scoring team use?",
+    "ground_truth": "CRF model that used morphosyntactic and distributional features, as well as word clusters based on these learned representations."
+}{
+    "question": "What descriptive statistics are provided about the data?",
+    "ground_truth": "the number of entities, unique entities in the training and test sets"
+}{
+    "question": "What was the level of inter-annotator agreement?",
+    "ground_truth": "Average Cohen’s Kappa score of inter-annotator agreement was 0.655"
+}{
+    "question": "What questions were asked in the annotation process?",
+    "ground_truth": "determine entities and annotate them based on the description that matched the type of entity"
+}

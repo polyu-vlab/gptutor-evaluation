@@ -1,0 +1,4 @@
+{
+    "question": "On which datasets does LadaBERT achieve state-of-the-art?",
+    "ground_truth": "MNLI-m, MNLI-mm, SST-2, QQP, QNLI"
+}

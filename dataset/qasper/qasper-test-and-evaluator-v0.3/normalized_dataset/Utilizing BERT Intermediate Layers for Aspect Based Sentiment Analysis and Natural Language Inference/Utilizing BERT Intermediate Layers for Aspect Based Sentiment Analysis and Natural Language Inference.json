@@ -1,0 +1,7 @@
+{
+    "question": "How long is their sentiment analysis dataset?",
+    "ground_truth": "Three datasets had total of 14.5k samples."
+}{
+    "question": "What layer gave the better results?",
+    "ground_truth": "12"
+}

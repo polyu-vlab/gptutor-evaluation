@@ -1,0 +1,7 @@
+{
+    "question": "What are previoius similar models authors are referring to?",
+    "ground_truth": "Abstractive and extractive models from Nallapati et al., 2016, Pointer generator models with and without coverage from See et al., 2017, and Reinforcement Learning models from Paulus et al., 2018, and Celikyilmaz et al., 2018."
+}{
+    "question": "What was previous state of the art on factored dataset?",
+    "ground_truth": "ROUGE-1 41.69\nROUGE-2 19.47\nROUGE-L 37.92"
+}

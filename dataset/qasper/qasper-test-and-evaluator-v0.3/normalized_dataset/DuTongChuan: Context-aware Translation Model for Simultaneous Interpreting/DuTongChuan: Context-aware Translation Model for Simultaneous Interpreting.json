@@ -1,0 +1,4 @@
+{
+    "question": "Does larger granularity lead to better translation quality?",
+    "ground_truth": "It depends on the model used."
+}

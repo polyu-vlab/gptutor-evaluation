@@ -1,0 +1,10 @@
+{
+    "question": "How does this single-system compares to system combination ones?",
+    "ground_truth": "in terms of WER for the DEV (EVAL) set, the single proposed model (GSS1) has higher WER than the multiple proposed model  (GSS6) by 7.4% (4.1%). "
+}{
+    "question": "What was previous single-system state of the art result on the CHiME-5 data?",
+    "ground_truth": "Previous single system state of the art had WER of  58.3 (53.1)."
+}{
+    "question": "How much is error rate reduced by cleaning up training data?",
+    "ground_truth": "In case of singe model the WER was better by 10.%  (6.4%) and in case of multi model it was 3.5% ( 4.1%)"
+}

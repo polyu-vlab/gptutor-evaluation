@@ -1,0 +1,10 @@
+{
+    "question": "What baselines do they compare to?",
+    "ground_truth": "a encoder-decoder architecture with attention incorporating LSTMs and transformers"
+}{
+    "question": "What training set sizes do they use?",
+    "ground_truth": "89k, 114k, 291k, 5M"
+}{
+    "question": "What languages do they experiment with?",
+    "ground_truth": "German-English, English-French, Czech-English, Basque-English pairs"
+}

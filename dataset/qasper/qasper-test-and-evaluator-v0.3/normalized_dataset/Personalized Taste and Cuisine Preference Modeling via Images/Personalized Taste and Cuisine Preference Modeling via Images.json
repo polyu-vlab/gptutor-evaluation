@@ -1,0 +1,7 @@
+{
+    "question": "Is this done in form of unsupervised (clustering) or suppervised learning?",
+    "ground_truth": "Supervised methods are used to identify the dish and ingredients in the image, and an unsupervised method (KNN) is used to create the food profile."
+}{
+    "question": "Does this study perform experiments to prove their claim that indeed personalized profiles will have inclination towards particular cuisines?",
+    "ground_truth": "The study features a radar chart describing inclinations toward particular cuisines, but they do not perform any experiments"
+}

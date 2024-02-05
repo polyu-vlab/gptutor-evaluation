@@ -1,0 +1,7 @@
+{
+    "question": "What set of semantic tags did they use?",
+    "ground_truth": "Tags categories ranging from anaphoric (definite, possessive pronoun), attribute (colour, concrete quantity, intersective, relation), unnamed entity (concept), logical (alternative, disjunction), discourse (subordinate relation), events (present simple, past simple), etc."
+}{
+    "question": "How much improvement did they see on the NLI task?",
+    "ground_truth": "0.5 improvement with LWS over the single-task model"
+}

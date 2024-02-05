@@ -1,0 +1,10 @@
+{
+    "question": "What is the sign language recognition task investigated?",
+    "ground_truth": " American Sign Language recognition "
+}{
+    "question": "What is the performance of the best model in the sign language recognition task?",
+    "ground_truth": "Spatial AI-LSTM"
+}{
+    "question": "What are the deep learning architectures used?",
+    "ground_truth": "3D CNN, Axis independent LSTM,  spatial axis independent LSTM, and combined network "
+}

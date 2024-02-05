@@ -1,0 +1,13 @@
+{
+    "question": "what is the source of their dataset?",
+    "ground_truth": "Topics were taken from category names in Google News, tags on Twitter, event archives on the Web. News articles were taken from news websites."
+}{
+    "question": "by how much did the performance improve?",
+    "ground_truth": "The proposed RAVAESum method improves from 0.001 to  0.059  Rouge1."
+}{
+    "question": "how many experts were there?",
+    "ground_truth": "5"
+}{
+    "question": "what is the size of the data collected?",
+    "ground_truth": " The dataset contains 19k annotated aspect facets, 45 topics, 6 predefined categories, 450 news document, 180 model summaries. The length limit of the model summary is 100 words (slitted by space). On average, each topic contains 215 pieces of comments and 940 comment sentences. Each news document contains an average of 27 sentences, and each sentence contains an average of 25 words"
+}

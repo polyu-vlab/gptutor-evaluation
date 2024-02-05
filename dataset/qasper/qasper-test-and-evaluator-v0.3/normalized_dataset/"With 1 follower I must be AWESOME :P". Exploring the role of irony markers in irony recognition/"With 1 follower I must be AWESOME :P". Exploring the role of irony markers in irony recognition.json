@@ -1,0 +1,10 @@
+{
+    "question": "Do they evaluate only on English datasets?",
+    "ground_truth": "The twitter dataset is English-only; no information for the reddit dataset is given"
+}{
+    "question": "What type of frequency analysis was used?",
+    "ground_truth": "Mean of occurrence per utterance and the standard deviation is calculated for every marker type; the means between each pair of types is compared via independent t-tests"
+}{
+    "question": "Who annotated the Twitter and Reddit data for irony?",
+    "ground_truth": "Authors of the tweets and reddit posts"
+}

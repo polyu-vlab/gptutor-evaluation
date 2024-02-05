@@ -1,0 +1,7 @@
+{
+    "question": "What is the performance of large state-of-the-art models on these datasets?",
+    "ground_truth": "Average  92.87 for CoNLL-01 and Average 8922 for Ontonotes 5"
+}{
+    "question": "How do they build gazetter resources from Wikipedia knowlege base?",
+    "ground_truth": "Extract entity type tuples at appropriate level of granularity depending on the NER task."
+}

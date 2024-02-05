@@ -1,0 +1,7 @@
+{
+    "question": "How do they perform the joint training?",
+    "ground_truth": "They train a single model that integrates a BERT language model as a shared parameter layer on NER and RC tasks."
+}{
+    "question": "What is the previous model that achieved state-of-the-art?",
+    "ground_truth": "Joint Bi-LSTM"
+}

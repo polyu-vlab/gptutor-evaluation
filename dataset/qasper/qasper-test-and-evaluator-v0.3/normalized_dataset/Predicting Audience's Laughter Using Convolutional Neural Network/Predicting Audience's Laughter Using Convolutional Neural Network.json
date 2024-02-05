@@ -1,0 +1,7 @@
+{
+    "question": "What linguistic model does the conventional method use?",
+    "ground_truth": "Random Forest to perform humor recognition by using the following two groups of features:  latent semantic structural features and semantic distance features."
+}{
+    "question": "How are the positive instances annotated? e.g. by annotators, or by laughter from the audience?",
+    "ground_truth": "Laughter from the audience."
+}

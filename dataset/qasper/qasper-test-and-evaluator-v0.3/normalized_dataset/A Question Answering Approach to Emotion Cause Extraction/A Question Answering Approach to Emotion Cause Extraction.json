@@ -1,0 +1,10 @@
+{
+    "question": "what was their system's f1 score?",
+    "ground_truth": "0.6955"
+}{
+    "question": "what lexical features are extracted?",
+    "ground_truth": "the distance between a clause and an emotion words"
+}{
+    "question": "what word level sequences features are extracted?",
+    "ground_truth": "Concatenation of three prediction output vectors"
+}

@@ -1,0 +1,4 @@
+{
+    "question": "what is the previous work they are comparing to?",
+    "ground_truth": "Subword based NMT, Character-based NMT"
+}

@@ -1,0 +1,13 @@
+{
+    "question": "What are the most discriminating patterns which are analyzed?",
+    "ground_truth": "Patterns containing the preposition \"of\" make up the vast majority of prepositional phrases for both the fact and feel classes and  patterns with the preposition “for” are substantially more common in the feel class than the fact class."
+}{
+    "question": "What bootstrapping methodology was used to find new patterns?",
+    "ground_truth": "They embed AutoSlog-TS in a bootstrapping framework to learn additional linguistic expressions from the unannotated texts -  they give the labeled training data to AutoSlog-TS, which generates patterns and associated statistics and then identifies high-precision patterns that can be used to label some of the unannotated texts as factual or feeling."
+}{
+    "question": "What patterns were extracted which were correlated with emotional arguments?",
+    "ground_truth": "Examples of extracted patters with high probability that contain of are: MARRIAGE FOR, STANDING FOR, SAME FOR, TREATMENT FOR, DEMAND FOR, ATTENTION FOR, ADVOCATE FOR, NO EVIDENCE FOR, JUSTIFICATION FOR, EXCUSE FOR"
+}{
+    "question": "What patterns were extracted which were correlated with factual arguments?",
+    "ground_truth": "Examples of extracted patters with high probability that correlate with factual argument are: RESULT OF, ORIGIN OF, THEORY OF, EVIDENCE OF, PARTS OF, EVOLUTION OF, PERCENT OF, THOUSANDS OF, EXAMPLE OF, LAW OF"
+}

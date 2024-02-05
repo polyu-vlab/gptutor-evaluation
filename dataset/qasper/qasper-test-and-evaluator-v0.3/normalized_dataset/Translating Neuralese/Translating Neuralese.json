@@ -1,0 +1,4 @@
+{
+    "question": "What dataset is used?",
+    "ground_truth": "XKCD color dataset; Caltech-UCSD Birds dataset; game data from Amazon Mechanical Turk workers "
+}

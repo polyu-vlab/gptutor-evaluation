@@ -1,0 +1,10 @@
+{
+    "question": "What textual, psychological and behavioural patterns are observed in radical users?",
+    "ground_truth": "They use a lot of \"us\" and \"them\" in their vocabulary. They use a lot of mentions, and they tend to be \"central\" in their network. They use a lot of violent words. "
+}{
+    "question": "Which psychological features are used?",
+    "ground_truth": "summary variable - analytically thinking, clout, tone, authentic, Big five variable - openness, conscientiousness, extraversion, agreeableness, neuroticism, Emotional variables - positive emotions in the text, negative emotions in the text, personal drives - power, reward, risk, achievement, affiliation, personal pronouns -  counts the number of 1st, 2nd, and 3rd personal pronouns used, Minkowski distance between each profile and average values of these features created from the ISIS magazines"
+}{
+    "question": "Which textual features are used?",
+    "ground_truth": "ratio of violent words in the tweet, ratio of curse words in the tweet, frequency of words with all capital letters, 200 dimension sized vector for the tweet calculated using word embedding, tf-idf scores for top scoring uni-grams, bi-grams and tri-grams"
+}

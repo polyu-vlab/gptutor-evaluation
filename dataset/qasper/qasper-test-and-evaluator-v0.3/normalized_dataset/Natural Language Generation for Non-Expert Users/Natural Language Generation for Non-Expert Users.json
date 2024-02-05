@@ -1,0 +1,4 @@
+{
+    "question": "What are two use cases that demonstrate capability of created system?",
+    "ground_truth": "The first application is to build a natural language description of the ontologies built in an evolutionary biology project called Phylotastic, so that biologists can understand the output, without knowledge of ontologies. The second aims to create an abstract or intermediate representation of the Wikipedia pages from the BlueSky session in 2018."
+}

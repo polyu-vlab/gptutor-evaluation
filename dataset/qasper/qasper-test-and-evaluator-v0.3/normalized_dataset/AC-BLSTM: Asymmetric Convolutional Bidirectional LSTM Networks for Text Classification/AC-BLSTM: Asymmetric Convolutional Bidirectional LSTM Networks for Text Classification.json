@@ -1,0 +1,7 @@
+{
+    "question": "How do they perform semi-supervised learning?",
+    "ground_truth": "On each step, a generative network is used to generate samples, then a classifier labels them to an extra class. A mix of generated data and real data is combined into a batch, then a gradient descent is performed on the batch,  and the parameters are updated."
+}{
+    "question": "What are the five evaluated tasks?",
+    "ground_truth": "Model is evaluated on six tasks: TREC, MR, SST-1, SST-2, SUBJ and YELP13."
+}

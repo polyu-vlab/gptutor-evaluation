@@ -1,0 +1,7 @@
+{
+    "question": "What are their results on this task?",
+    "ground_truth": "F1 score of 97.97 for a linear classifier and 98.11 for a SVM classifier"
+}{
+    "question": "How is the text segmented?",
+    "ground_truth": "They simply split document in chunks, get embedding for each chunk and train BiLSTM models with embeddings."
+}

@@ -1,0 +1,7 @@
+{
+    "question": "by how much did their approach outperform previous work?",
+    "ground_truth": "By 0,008 F1,  0, 02 Recall and 0,02 Precision."
+}{
+    "question": "what training data was used?",
+    "ground_truth": "Twitter product reviews containing exactly one of the trailing hashtags “#sarcasm,” “#happiness,” “#sadness,” “#anger,” “#surprise,” “#fear,” and “#disgust”, and Amazon product reviews from the publicly available sarcasm corpus developed by Filatova FILATOVA12.661."
+}

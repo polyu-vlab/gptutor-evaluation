@@ -1,0 +1,10 @@
+{
+    "question": "How do they obtain structured data?",
+    "ground_truth": "The structured data is obtained from the box-score tables."
+}{
+    "question": "Which competing objectives for their unsupevised method do they use?",
+    "ground_truth": "A combination of Content Objective and Style Objective"
+}{
+    "question": "Which content coverage constraints do they design?",
+    "ground_truth": "Answer with content missing: (Content Coverage Constraint section) We thus devise an additional learning constraint based on the nature of content description—each data tuple in the content record should usually be mentioned exactly once in the generated sentence.\nThe copy mechanism over content record x enables a simple yet effective way to encourage the behavior. Intuitively, we want each tuple to be copied once and only once on average."
+}

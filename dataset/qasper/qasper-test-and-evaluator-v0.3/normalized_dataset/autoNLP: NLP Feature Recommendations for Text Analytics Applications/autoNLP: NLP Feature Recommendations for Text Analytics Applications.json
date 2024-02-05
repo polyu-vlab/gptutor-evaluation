@@ -1,0 +1,10 @@
+{
+    "question": "What is the similarity of manually selected features across related applications in different domains?",
+    "ground_truth": "Applications share similar sets of features (of the 7 set of features, 6 selected are the same)"
+}{
+    "question": "What type of features are extracted with this language?",
+    "ground_truth": "Linguistic, Semantic, and Statistical."
+}{
+    "question": "What are meta elements of language for specifying NLP features?",
+    "ground_truth": "Analysis Unit (AU) (Corpus level, Document level, Para (paragraph) level,  Sentence level);\nSyntactic Unit (SU) (Word, Phrase, N-gram, Regex, POS Regex,);\nLOGICAL (AND, OR, AND NOT,  OR NOT);\nNormalize Morphosyntactic Variants (yes or no)."
+}

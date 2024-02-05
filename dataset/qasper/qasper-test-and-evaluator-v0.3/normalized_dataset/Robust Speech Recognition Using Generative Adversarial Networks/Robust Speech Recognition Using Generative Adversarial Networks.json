@@ -1,0 +1,4 @@
+{
+    "question": "Are there experiments with real data?",
+    "ground_truth": "Yes. They show results on the Wall Street Journal Corpus, which consists of recordings of real speech."
+}

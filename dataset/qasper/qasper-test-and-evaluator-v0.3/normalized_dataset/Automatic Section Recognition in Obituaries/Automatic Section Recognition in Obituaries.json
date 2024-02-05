@@ -1,0 +1,4 @@
+{
+    "question": "by how much did their model outperform the other models?",
+    "ground_truth": "In terms of macro F1 score their model has 0.65 compared to 0.58 of best other model."
+}

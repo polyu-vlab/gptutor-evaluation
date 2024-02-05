@@ -1,0 +1,7 @@
+{
+    "question": "What tasks are the models trained on?",
+    "ground_truth": "Sentiment classification, topics classification, question classification."
+}{
+    "question": "What recurrent neural networks are explored?",
+    "ground_truth": "LSTM with 4 types of recurrent neural layers."
+}

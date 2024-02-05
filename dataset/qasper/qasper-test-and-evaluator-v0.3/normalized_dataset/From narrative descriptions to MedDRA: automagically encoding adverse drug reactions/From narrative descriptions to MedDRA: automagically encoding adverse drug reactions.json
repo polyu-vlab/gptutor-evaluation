@@ -1,0 +1,4 @@
+{
+    "question": "How is the system constructed to be linear in the size of the narrative input and the terminology?",
+    "ground_truth": "The system scans the text word-by-word once and performs a voting task for each word. It also keeps track of the position of the previous words."
+}

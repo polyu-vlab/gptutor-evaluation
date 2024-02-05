@@ -1,0 +1,7 @@
+{
+    "question": "Which downstream tasks are used for evaluation in this paper?",
+    "ground_truth": "Various sequence tagging tasks: Argument detection, ACE entity and event detection, part-of-speech tagging, CoNLL chunking, CoNLL named entity recognition, GENIA bio-entity recognition, WNUT named entity recognition. They also evaluate on Stanford Sentiment Treebank, Penn TreeBank constituency parsing, and Stanford Natural Language Inference."
+}{
+    "question": "Which datasets are used for evaluation?",
+    "ground_truth": "Argument detection, ACE 2005, Universal Dependencies part-of-speech tags, CoNLL 2000 chunking shared task, CoNLL 2003 named entity recognition shared task, GENIA NER Bio-Entity Recognition, WNUT16 Twitter named entity recognition shared task, Stanford Sentiment Treebank, Penn TreeBank constituency parsing, Stanford Natural Language Inference corpus"
+}

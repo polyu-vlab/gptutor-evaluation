@@ -1,0 +1,7 @@
+{
+    "question": "How many layers of recurrent neural networks do they use for encoding the global context?",
+    "ground_truth": "8"
+}{
+    "question": "How did their model rank in three CMU WMT2018 tracks it didn't rank first?",
+    "ground_truth": "Second on De-En and En-De (NMT) tasks, and third on En-De (SMT) task."
+}

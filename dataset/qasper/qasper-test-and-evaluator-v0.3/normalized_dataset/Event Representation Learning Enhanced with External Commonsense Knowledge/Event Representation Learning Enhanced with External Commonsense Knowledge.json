@@ -1,0 +1,7 @@
+{
+    "question": "How is the event prediction task evaluated?",
+    "ground_truth": "replacing the event embeddings on SGNN and running it on the MCNC dataset"
+}{
+    "question": "What are the datasets used in the paper?",
+    "ground_truth": "ATOMIC, New York Times Gigaword, an unreleased extension of the dataset by BIBREF5, MCNC"
+}

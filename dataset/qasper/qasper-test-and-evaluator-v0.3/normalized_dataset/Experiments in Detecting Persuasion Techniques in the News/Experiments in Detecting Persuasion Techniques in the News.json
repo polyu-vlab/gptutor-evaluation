@@ -1,0 +1,10 @@
+{
+    "question": "Which BERT-based baselines do they compare to?",
+    "ground_truth": "BERT with one separately trained linear layer for each of the two tasks, BERT-Joint, which trains a layer for both tasks jointly, BERT-Granularity,  a modification of BERT-Joint which transfers information from the less granular task to the more granular task. "
+}{
+    "question": "What are the propaganda types?",
+    "ground_truth": "Although not all of the 18 types are listed, they include using loaded language or appeal to authority and slogans, using logical fallacies such as strawmen, hidden ad-hominen fallacies ad red herrings. "
+}{
+    "question": "What datasets did they use in their experiment?",
+    "ground_truth": "A dataset of news articles from different news outlets collected by the authors."
+}

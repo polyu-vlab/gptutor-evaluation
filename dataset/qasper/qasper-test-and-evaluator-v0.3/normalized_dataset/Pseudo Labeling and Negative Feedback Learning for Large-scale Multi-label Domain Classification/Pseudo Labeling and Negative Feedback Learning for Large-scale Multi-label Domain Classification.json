@@ -1,0 +1,10 @@
+{
+    "question": "By how much do they improve on domain classification?",
+    "ground_truth": "F-1 score was improved by 1.19 percent points."
+}{
+    "question": "Which dataset do they evaluate on?",
+    "ground_truth": "The dataset was created by extracting utterances from the user log data from an intelligent conversational system."
+}{
+    "question": "How do they decide by how much to decrease confidences of incorrectly predicted domains?",
+    "ground_truth": "The confidence of the incorrectly predicted domain is decreased only when it is highest among all predictions."
+}

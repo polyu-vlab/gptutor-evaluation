@@ -1,0 +1,4 @@
+{
+    "question": "How much gain in performance was obtained with user embeddings?",
+    "ground_truth": "On test set RNN that uses user embedding has AUC of 80.53 compared to base RNN 79.24."
+}

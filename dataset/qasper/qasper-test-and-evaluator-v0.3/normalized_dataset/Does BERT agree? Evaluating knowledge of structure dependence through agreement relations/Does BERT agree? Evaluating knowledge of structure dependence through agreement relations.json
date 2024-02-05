@@ -1,0 +1,7 @@
+{
+    "question": "Do single-language BERT outperforms multilingual BERT?",
+    "ground_truth": "For some language yes, but not for another."
+}{
+    "question": "What types of agreement relations do they explore?",
+    "ground_truth": "Subject-verb agreement,  noun-determiner agreement,  noun -attributive adjective agreement and noun-predicate adjective agreement."
+}

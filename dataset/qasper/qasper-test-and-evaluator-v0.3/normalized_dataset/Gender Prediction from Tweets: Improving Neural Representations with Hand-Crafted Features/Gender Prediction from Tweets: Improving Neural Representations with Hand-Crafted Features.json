@@ -1,0 +1,7 @@
+{
+    "question": "What is the performance of the model on English, Spanish and Arabic?",
+    "ground_truth": "on PAN 2018 dataset, the accuracy is 82.31% for English, 80.22% for Spanish and 80.50% for Arabic"
+}{
+    "question": "How is this model different from a LSTM?",
+    "ground_truth": "It's a recurrent neural network with n-gram model"
+}

@@ -1,0 +1,10 @@
+{
+    "question": "Do they authors offer a hypothesis for why Twitter data makes better predictions about the inventory of languages used in each country?",
+    "ground_truth": "Twitter data has fewer missing languages than what census-based data contains because it matches populations better when they are weighting by GDP"
+}{
+    "question": "Which websites were used in the web crawl?",
+    "ground_truth": "81.5 billion web pages covered in Common Crawl dataset"
+}{
+    "question": "What countries and languages are represented in the datasets?",
+    "ground_truth": "English, Spanish, Russian, Serbo-Croatian, Mandarin, German, French, Slovenian, Portuguese, Finnish, Bulgarian, Arabic, Indonesian, Latvian, Estonian, Slovak, Azerbaijani, Romanina, Icelandic, Italian, among others."
+}

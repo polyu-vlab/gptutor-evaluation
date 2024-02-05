@@ -1,0 +1,10 @@
+{
+    "question": "How is intent annotated?",
+    "ground_truth": "using a role-playing task on the Amazon Mechanical Turk platform and collecting typed conversations"
+}{
+    "question": "What are the baselines outperformed by this work?",
+    "ground_truth": "TransferTransfo and Hybrid "
+}{
+    "question": "What are the evaluation metrics and criteria used to evaluate the model performance?",
+    "ground_truth": "Automatic evaluation metrics (Perplexity (PPl), Response-Intent Prediction (RIP), Response-Slot Prediction(RSP), Extended Response-Intent Prediction(ERIP),  Extended Response-Slot Prediction (ERSP)) and Human Evaluation Metrics (Fluency, Coherence, Engagement, Lenhth, TaskSuc)"
+}

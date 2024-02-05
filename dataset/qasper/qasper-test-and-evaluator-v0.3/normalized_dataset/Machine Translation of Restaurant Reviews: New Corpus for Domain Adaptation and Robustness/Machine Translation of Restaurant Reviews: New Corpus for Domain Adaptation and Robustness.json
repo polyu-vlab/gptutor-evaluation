@@ -1,0 +1,10 @@
+{
+    "question": "what are the human evaluation metrics?",
+    "ground_truth": "The outputs are ranked by human evaluators, the wins, ties and losses are counted, then the Wilcoxon signed-rank test is applied."
+}{
+    "question": "what automatic evaluation is performed?",
+    "ground_truth": "BLEU, accuracy"
+}{
+    "question": "what are the existing online systems?",
+    "ground_truth": "Existing online systems compared in this work are Google Translate (Feb 2019) and DeepL (Feb 2019)."
+}

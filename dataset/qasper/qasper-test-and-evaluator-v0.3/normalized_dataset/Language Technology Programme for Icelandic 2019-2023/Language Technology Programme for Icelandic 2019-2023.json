@@ -1,0 +1,10 @@
+{
+    "question": "What private companies are members of consortium?",
+    "ground_truth": "Creditinfo, Grammatek, Mideind and Tiro"
+}{
+    "question": "What concrete software is planned to be developed by the end of the programme?",
+    "ground_truth": "A lot of new software will be developed in all areas of the programme, some will be extensions of already available Greynir software."
+}{
+    "question": "When did language technology start in Iceland?",
+    "ground_truth": "Around year 2000"
+}

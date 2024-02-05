@@ -1,0 +1,7 @@
+{
+    "question": "What social-network features are used?",
+    "ground_truth": "Relative positions of the author and target accounts in the directed following network by\ncomputing modified versions of Jaccard’s similarity index, friends count, followers count, verified status, number of tweets posted within 6 months."
+}{
+    "question": "How is cyberbullying defined?",
+    "ground_truth": "They define cyberbullying as aggressive language, repetition, harmful intent, visibility among peers, and power imbalance"
+}

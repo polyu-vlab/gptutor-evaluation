@@ -1,0 +1,7 @@
+{
+    "question": "How many users does their dataset have?",
+    "ground_truth": "33,458 Twitter users are orginally used, but than random sample of tweets is extracted resulting in smaller number or users in final dataset."
+}{
+    "question": "How long is their dataset?",
+    "ground_truth": "85400000"
+}

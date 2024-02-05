@@ -1,0 +1,10 @@
+{
+    "question": "Is the dataset used in other work?",
+    "ground_truth": "Yes, in Waseem and Hovy (2016)"
+}{
+    "question": "What is the drawback to methods that rely on textual cues?",
+    "ground_truth": "They don't provide wider discourse information"
+}{
+    "question": "What community-based profiling features are used?",
+    "ground_truth": "The features are the outputs from node2vec when run on a community graph where nodes are users and edges are connections if one user follows the other on Twitter."
+}

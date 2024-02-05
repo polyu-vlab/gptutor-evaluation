@@ -1,0 +1,13 @@
+{
+    "question": "What previous approaches are presented for comparison?",
+    "ground_truth": "Baseline system corresponds to considering the original document as the modernized version. They used two approaches SMT and NMT and compared to the baseline, SMT showed best results."
+}{
+    "question": "What kind of data is used to train the model?",
+    "ground_truth": "Modern and historical versions of literature like the Bible and a Spanish novel."
+}{
+    "question": "What machine learning techniques are used in the model architecture?",
+    "ground_truth": "classification for SMT and neural methods for NMT"
+}{
+    "question": "What language(s) is the model tested on?",
+    "ground_truth": "Dutch and Spanish"
+}

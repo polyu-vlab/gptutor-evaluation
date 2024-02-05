@@ -1,0 +1,7 @@
+{
+    "question": "What dataset was used in this challenge?",
+    "ground_truth": "SRE04/05/06/08/10/MIXER6\nLDC98S75/LDC99S79/LDC2002S06/LDC2001S13/LDC2004S07\nVoxceleb 1/2\nFisher + Switchboard I\nCallhome+Callfriend"
+}{
+    "question": "Which subsystem outperformed the others?",
+    "ground_truth": "eftdnn "
+}

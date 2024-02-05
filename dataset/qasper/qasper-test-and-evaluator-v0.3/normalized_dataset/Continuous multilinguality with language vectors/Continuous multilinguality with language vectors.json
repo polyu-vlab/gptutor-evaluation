@@ -1,0 +1,4 @@
+{
+    "question": "How do they show genetic relationships between languages?",
+    "ground_truth": "By doing hierarchical clustering of word vectors"
+}

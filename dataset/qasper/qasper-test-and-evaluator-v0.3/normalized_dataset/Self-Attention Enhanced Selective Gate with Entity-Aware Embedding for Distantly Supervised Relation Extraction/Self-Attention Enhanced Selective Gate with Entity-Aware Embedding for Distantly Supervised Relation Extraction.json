@@ -1,0 +1,4 @@
+{
+    "question": "By how much do they outperform previous state-of-the-art in terms of top-n precision?",
+    "ground_truth": "Outperforms PCNN+HATT by 10.3% and PCNN+BAG-ATT by 5.3%"
+}

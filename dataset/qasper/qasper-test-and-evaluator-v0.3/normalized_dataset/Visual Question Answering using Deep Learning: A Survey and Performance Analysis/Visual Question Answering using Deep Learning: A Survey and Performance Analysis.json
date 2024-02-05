@@ -1,0 +1,10 @@
+{
+    "question": "What are remaining challenges in VQA?",
+    "ground_truth": " object level details, segmentation masks, and sentiment of the question"
+}{
+    "question": "What was the architecture of the 2017 Challenge Winner model?",
+    "ground_truth": "Region-based CNN"
+}{
+    "question": "What is an example of a common sense question?",
+    "ground_truth": "How many giraffes are drinking water?"
+}

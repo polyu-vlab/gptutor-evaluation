@@ -1,0 +1,10 @@
+{
+    "question": "In what was does an LSTM mimic the prefrontal cortex?",
+    "ground_truth": "It combines language and vision streams similar to the human prefrontal cortex."
+}{
+    "question": "In what way does an LSTM mimic the intra parietal sulcus?",
+    "ground_truth": "It mimics the number processing functionality of human Intra-Parietal Sulcus."
+}{
+    "question": "How do the authors define imagination, or imagined scenarios?",
+    "ground_truth": "Ability to change the answering contents by considering the consequence of the next few output sentences."
+}

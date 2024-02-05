@@ -1,0 +1,7 @@
+{
+    "question": "What conclusions do the authors draw from their experiments?",
+    "ground_truth": "Supervised models CNN, LSTM and BLSTM and unsupervised models BOW, DSSM, STV and T2V can  encapsulate most of the syntactic and social properties. Tweet length affects the task prediction accuracies for all models. LDA is insensitive to input word order, but, CNN, LSTM\nand BLSTM are not."
+}{
+    "question": "In what way does each classifier evaluate one of the syntactic or social properties which are salient for a tweet?",
+    "ground_truth": "Through 8 different property prediction tasks"
+}
