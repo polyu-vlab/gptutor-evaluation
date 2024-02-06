@@ -1,0 +1,184 @@
+End-to-End Trainable Non-Collaborative Dialog System
+OpenTapioca: Lightweight Entity Linking for Wikidata
+Spotting Rumors via Novelty Detection
+Knowledge Authoring and Question Answering with KALM
+Automatically Inferring Gender Associations from Language
+A Crowd-based Evaluation of Abuse Response Strategies in Conversational Agents
+EmoAtt at EmoInt-2017: Inner attention sentence embedding for Emotion Intensity
+Multilingual and Multi-Aspect Hate Speech Analysis
+Advancing Speech Recognition With No Speech Or With Noisy Speech
+LadaBERT: Lightweight Adaptation of BERT through Hybrid Model Compression
+Improved Representation Learning for Predicting Commonsense Ontologies
+Classifying Diagrams and Their Parts using Graph Neural Networks: A Comparison of Crowd-Sourced and Expert Annotations
+Neural Language Modeling with Visual Features
+Can Neural Networks Learn Symbolic Rewriting?
+Aggressive, Repetitive, Intentional, Visible, and Imbalanced: Refining Representations for Cyberbullying Classification
+A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization
+A Corpus of Adpositional Supersenses for Mandarin Chinese
+LibriVoxDeEn: A Corpus for German-to-English Speech Translation and German Speech Recognition
+Self-Attention Enhanced Selective Gate with Entity-Aware Embedding for Distantly Supervised Relation Extraction
+THUEE system description for NIST 2019 SRE CTS Challenge
+Automated Hate Speech Detection and the Problem of Offensive Language
+What Would Elsa Do? Freezing Layers During Transformer Fine-Tuning
+Enhancing PIO Element Detection in Medical Text Using Contextualized Embedding
+Does BERT agree? Evaluating knowledge of structure dependence through agreement relations
+#SarcasmDetection is soooo general! Towards a Domain-Independent Approach for Detecting Sarcasm
+Natural Language Generation for Non-Expert Users
+Continuous multilinguality with language vectors
+From narrative descriptions to MedDRA: automagically encoding adverse drug reactions
+A computational linguistic study of personal recovery in bipolar disorder
+Improved English to Russian Translation by Neural Suffix Prediction
+Improving Word Representations: A Sub-sampled Unigram Distribution for Negative Sampling
+KPTimes: A Large-Scale Dataset for Keyphrase Generation on News Documents
+A Low Dimensionality Representation for Language Variety Identification
+Event Representation Learning Enhanced with External Commonsense Knowledge
+A Joint Model for Word Embedding and Word Morphology
+Automatically Neutralizing Subjective Bias in Text
+Sign Language Recognition Analysis using Multimodal Data
+What do character-level models learn about morphology? The case of dependency parsing
+A Benchmark Dataset for Learning to Intervene in Online Hate Speech
+Self-Attention Gazetteer Embeddings for Named-Entity Recognition
+Legal Question Answering using Ranking SVM and Deep Convolutional Neural Network
+Robust Speech Recognition Using Generative Adversarial Networks
+Revisiting the Centroid-based Method: A Strong Baseline for Multi-Document Summarization
+"With 1 follower I must be AWESOME :P". Exploring the role of irony markers in irony recognition
+Dialogue Session Segmentation by Embedding-Enhanced TextTiling
+Tie-breaker: Using language models to quantify gender bias in sports journalism
+Translating Neuralese
+Speech Model Pre-training for End-to-End Spoken Language Understanding
+Political Speech Generation
+Language Transfer of Audio Word2Vec: Learning Audio Segment Representations without Target Language Data
+Long-length Legal Document Classification
+Simple and Effective Noisy Channel Modeling for Neural Machine Translation
+Zero-Shot Adaptive Transfer for Conversational Language Understanding
+Sentiment Analysis On Indian Indigenous Languages: A Review On Multilingual Opinion Mining
+Self-Attention and Ingredient-Attention Based Model for Recipe Retrieval from Image Queries
+Automatic Section Recognition in Obituaries
+Improving Unsupervised Word-by-Word Translation with Language Model and Denoising Autoencoder
+Reader-Aware Multi-Document Summarization: An Enhanced Model and The First Dataset
+Human-like machine thinking: Language guided imagination
+GitHub Typo Corpus: A Large-Scale Multilingual Dataset of Misspellings and Grammatical Errors
+TexTrolls: Identifying Russian Trolls on Twitter from a Textual Perspective
+KeyVec: Key-semantics Preserving Document Representations
+Language Technology Programme for Icelandic 2019-2023
+Controversy in Context
+Neural Joking Machine : Humorous image captioning
+Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model
+Neural Machine Translation with Imbalanced Classes
+Episodic Memory in Lifelong Language Learning
+Gender Prediction from Tweets: Improving Neural Representations with Hand-Crafted Features
+Efficient Dynamic WFST Decoding for Personalized Language Models
+Author Profiling for Hate Speech Detection
+Predicting Human Activities from User-Generated Content
+Interpreting the Syntactic and Social Elements of the Tweet Representations via Elementary Property Prediction Tasks
+Correcting Length Bias in Neural Machine Translation
+Predicting Audience's Laughter Using Convolutional Neural Network
+Character n-gram Embeddings to Improve RNN Language Models
+Hungarian Layer: Logics Empowered Neural Architecture
+Informative and Controllable Opinion Summarization
+Using Statistical and Semantic Models for Multi-Document Summarization
+Incremental Improvement of a Question Answering System by Re-ranking Answer Candidates using Machine Learning
+An Interactive Machine Translation Framework for Modernizing Historical Documents
+Clinical Information Extraction via Convolutional Neural Network
+A Question Answering Approach to Emotion Cause Extraction
+On the State of the Art of Evaluation in Neural Language Models
+Machine Translation of Restaurant Reviews: New Corpus for Domain Adaptation and Robustness
+Understanding the Radical Mind: Identifying Signals to Detect Extremist Content on Twitter
+Hotel2vec: Learning Attribute-Aware Hotel Embeddings with Self-Supervision
+Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions
+ACUTE-EVAL: Improved Dialogue Evaluation with Optimized Questions and Multi-turn Comparisons
+Different Absorption from the Same Sharing: Sifted Multi-task Learning for Fake News Detection
+Toward Unsupervised Text Content Manipulation
+Senti17 at SemEval-2017 Task 4: Ten Convolutional Neural Network Voters for Tweet Polarity Classification
+Alternative Weighting Schemes for ELMo Embeddings
+A Short Review of Ethical Challenges in Clinical Natural Language Processing
+Outline Generation: Understanding the Inherent Content Structure of Documents
+Affect-LM: A Neural Language Model for Customizable Affective Text Generation
+Experiments in Detecting Persuasion Techniques in the News
+A Richly Annotated Corpus for Different Tasks in Automated Fact-Checking
+Efficient Transfer Learning Schemes for Personalized Language Modeling using Recurrent Neural Network
+Twitter Job Employment Corpus: A Dataset of Job-Related Discourse Built with Humans in the Loop
+Modeling German Verb Argument Structures: LSTMs vs. Humans
+Mapping Languages and Demographics with Georeferenced Corpora
+Building a robust sentiment lexicon with (almost) no resource
+Generating Black-Box Adversarial Examples for Text Classifiers Using a Deep Reinforced Model
+And the Winner is ...: Bayesian Twitter-based Prediction on 2016 U.S. Presidential Election
+Tweet2Vec: Learning Tweet Embeddings Using Character-level CNN-LSTM Encoder-Decoder
+Unsupervised Terminological Ontology Learning based on Hierarchical Topic Modeling
+Recommendation Chart of Domains for Cross-Domain Sentiment Analysis:Findings of A 20 Domain Study
+Transforming Wikipedia into Augmented Data for Query-Focused Summarization
+Read, Highlight and Summarize: A Hierarchical Neural Semantic Encoder-based Approach
+SubGram: Extending Skip-gram Word Representation with Substrings
+Semantic Mask for Transformer based End-to-End Speech Recognition
+Phrase Table as Recommendation Memory for Neural Machine Translation
+Semantic Product Search
+Unsupervised Identification of Study Descriptors in Toxicology Research: An Experimental Study
+Utilizing BERT Intermediate Layers for Aspect Based Sentiment Analysis and Natural Language Inference
+Location, Occupation, and Semantics based Socioeconomic Status Inference on Twitter
+Acquiring Annotated Data with Cross-lingual Explicitation for Implicit Discourse Relation Classification
+Recurrent Neural Network Grammars
+Assessing Gender Bias in Machine Translation -- A Case Study with Google Translate
+Neural network approach to classifying alarming student responses to online assessment
+Data-driven Approach for Quality Evaluation on Knowledge Sharing Platform
+Contextual Encoding for Translation Quality Estimation
+Named Entity Recognition in Twitter using Images and Text
+Improved Abusive Comment Moderation with User Embeddings
+Abstractive Summarization with Combination of Pre-trained Sequence-to-Sequence and Saliency Models
+Pseudo Labeling and Negative Feedback Learning for Large-scale Multi-label Domain Classification
+Visual Question Answering using Deep Learning: A Survey and Performance Analysis
+Self-Attention with Relative Position Representations
+Sentiment Analysis of Code-Mixed Indian Languages: An Overview of SAIL_Code-Mixed Shared Task @ICON-2017
+And That's A Fact: Distinguishing Factual and Emotional Argumentation in Online Dialogue
+A Focus on Neural Machine Translation for African Languages
+A Generalized Recurrent Neural Architecture for Text Classification with Multi-Task Learning
+GameWikiSum: a Novel Large Multi-Document Summarization Dataset
+Fine-tuning BERT for Joint Entity and Relation Extraction in Chinese Medical Text
+Reducing Gender Bias in Neural Machine Translation as a Domain Adaptation Problem
+A Surrogate-based Generic Classifier for Chinese TV Series Reviews
+A Causality-Guided Prediction of the TED Talk Ratings from the Speech-Transcripts using Neural Networks
+Emotional Neural Language Generation Grounded in Situational Contexts
+Verb Pattern: A Probabilistic Semantic Representation on Verbs
+autoNLP: NLP Feature Recommendations for Text Analytics Applications
+A Simple Joint Model for Improved Contextual Neural Lemmatization
+Pathological speech detection using x-vector embeddings
+Rethinking Attribute Representation and Injection for Sentiment Classification
+UIT-ViIC: A Dataset for the First Evaluation on Vietnamese Image Captioning
+Dual Co-Matching Network for Multi-choice Reading Comprehension
+An Investigation into the Effectiveness of Enhancement in ASR Training and Test for Chime-5 Dinner Party Transcription
+A Corpus for Multilingual Document Classification in Eight Languages
+AC-BLSTM: Asymmetric Convolutional Bidirectional LSTM Networks for Text Classification
+Linguistic Input Features Improve Neural Machine Translation
+What can we learn from Semantic Tagging?
+Learning to Select Bi-Aspect Information for Document-Scale Text Content Manipulation
+CAp 2017 challenge: Twitter Named Entity Recognition
+Improving Yor\`ub\'a Diacritic Restoration
+Fixed-Size Ordinally Forgetting Encoding Based Word Sense Disambiguation
+Gated Recurrent Neural Tensor Network
+360{\deg} Stance Detection
+Similarity measure for Public Persons
+Don't Forget the Long Tail! A Comprehensive Analysis of Morphological Generalization in Bilingual Lexicon Induction
+Tweet Acts: A Speech Act Classifier for Twitter
+Exploiting Token and Path-based Representations of Code for Identifying Security-Relevant Commits
+SEPT: Improving Scientific Named Entity Recognition with Span Representation
+Identifying Visible Actions in Lifestyle Vlogs
+Explicit Sparse Transformer: Concentrated Attention Through Explicit Selection
+ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning
+Question Answering on Freebase via Relation Extraction and Textual Evidence
+Controllable Sentence Simplification
+Modeling Conversation Structure and Temporal Dynamics for Jointly Predicting Rumor Stance and Veracity
+Insertion-Deletion Transformer
+An Annotated Corpus for Machine Reading of Instructions in Wet Lab Protocols
+Towards better decoding and language model integration in sequence to sequence models
+DuTongChuan: Context-aware Translation Model for Simultaneous Interpreting
+How to Ask Better Questions? A Large-Scale Multi-Domain Dataset for Rewriting Ill-Formed Questions
+Auditing ImageNet: Towards a Model-driven Framework for Annotating Demographic Attributes of Large-Scale Image Datasets
+Dynamic Fusion Networks for Machine Reading Comprehension
+Speeding up Context-based Sentence Representation Learning with Non-autoregressive Convolutional Decoding
+A Study on Neural Network Language Modeling
+Advances in Online Audio-Visual Meeting Transcription
+Incorporating External Knowledge to Answer Open-Domain Visual Questions with Dynamic Memory Networks
+Abusive Language Detection in Online Conversations by Combining Content-and Graph-based Features
+Represent, Aggregate, and Constrain: A Novel Architecture for Machine Reading from Noisy Sources
+Personalized Taste and Cuisine Preference Modeling via Images
+Regressing Word and Sentence Embeddings for Regularization of Neural Machine Translation
+Automatic Extraction of Personality from Text: Challenges and Opportunities
