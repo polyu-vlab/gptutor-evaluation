@@ -1,0 +1,12 @@
+{
+  "course": {
+    "id": "c1411810-d825-4255-b714-2790d9d86a42",
+    "name": "Evaluation",
+    "code": "EVAL1001",
+    "description": null,
+    "color": "blue",
+    "icon": "NA",
+    "expiryTimestamp": null,
+    "creatorId": "cfcd24dc-7074-49ec-8c2e-04544739144d"
+  }
+}

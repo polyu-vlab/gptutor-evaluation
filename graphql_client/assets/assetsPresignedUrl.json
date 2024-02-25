@@ -1,0 +1,212 @@
+{
+  "generateUploadProfiles": [
+    {
+      "postURL": "http://localhost:9000/gptutor",
+      "formData": {
+        "bucket": "gptutor",
+        "key": "c1411810-d825-4255-b714-2790d9d86a42/End-to-End Trainable Non-Collaborative Dialog System",
+        "Content-Type": "application/pdf",
+        "x-amz-meta-uploaderId": "cfcd24dc-7074-49ec-8c2e-04544739144d",
+        "x-amz-meta-courseId": "c1411810-d825-4255-b714-2790d9d86a42",
+        "x-amz-meta-fileName": "End-to-End Trainable Non-Collaborative Dialog System",
+        "x-amz-date": "20240223T184042Z",
+        "x-amz-algorithm": "AWS4-HMAC-SHA256",
+        "x-amz-credential": "minio/20240223/us-east-1/s3/aws4_request",
+        "policy": "eyJjb25kaXRpb25zIjpbWyJlcSIsIiRidWNrZXQiLCJncHR1dG9yIl0sWyJlcSIsIiRrZXkiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIvRW5kLXRvLUVuZCBUcmFpbmFibGUgTm9uLUNvbGxhYm9yYXRpdmUgRGlhbG9nIFN5c3RlbSJdLFsiZXEiLCIkQ29udGVudC1UeXBlIiwiYXBwbGljYXRpb24vcGRmIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMTAyNCwxMDQ4NTc2MDBdLFsiZXEiLCIkeC1hbXotbWV0YS11cGxvYWRlcklkIiwiY2ZjZDI0ZGMtNzA3NC00OWVjLThjMmUtMDQ1NDQ3MzkxNDRkIl0sWyJlcSIsIiR4LWFtei1tZXRhLWNvdXJzZUlkIiwiYzE0MTE4MTAtZDgyNS00MjU1LWI3MTQtMjc5MGQ5ZDg2YTQyIl0sWyJlcSIsIiR4LWFtei1tZXRhLWZpbGVOYW1lIiwiRW5kLXRvLUVuZCBUcmFpbmFibGUgTm9uLUNvbGxhYm9yYXRpdmUgRGlhbG9nIFN5c3RlbSJdLFsiZXEiLCIkeC1hbXotZGF0ZSIsIjIwMjQwMjIzVDE4NDA0MloiXSxbImVxIiwiJHgtYW16LWFsZ29yaXRobSIsIkFXUzQtSE1BQy1TSEEyNTYiXSxbImVxIiwiJHgtYW16LWNyZWRlbnRpYWwiLCJtaW5pby8yMDI0MDIyMy91cy1lYXN0LTEvczMvYXdzNF9yZXF1ZXN0Il1dLCJleHBpcmF0aW9uIjoiMjAyNC0wMi0yM1QyMDo0MDowMC42ODVaIn0=",
+        "x-amz-signature": "7a14d2e6d4cd98d883d276d1e72144508ef01b3710ec7496c9f5affb2ac962d9"
+      }
+    },
+    {
+      "postURL": "http://localhost:9000/gptutor",
+      "formData": {
+        "bucket": "gptutor",
+        "key": "c1411810-d825-4255-b714-2790d9d86a42/OpenTapioca: Lightweight Entity Linking for Wikidata",
+        "Content-Type": "application/pdf",
+        "x-amz-meta-uploaderId": "cfcd24dc-7074-49ec-8c2e-04544739144d",
+        "x-amz-meta-courseId": "c1411810-d825-4255-b714-2790d9d86a42",
+        "x-amz-meta-fileName": "OpenTapioca: Lightweight Entity Linking for Wikidata",
+        "x-amz-date": "20240223T184042Z",
+        "x-amz-algorithm": "AWS4-HMAC-SHA256",
+        "x-amz-credential": "minio/20240223/us-east-1/s3/aws4_request",
+        "policy": "eyJjb25kaXRpb25zIjpbWyJlcSIsIiRidWNrZXQiLCJncHR1dG9yIl0sWyJlcSIsIiRrZXkiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIvT3BlblRhcGlvY2E6IExpZ2h0d2VpZ2h0IEVudGl0eSBMaW5raW5nIGZvciBXaWtpZGF0YSJdLFsiZXEiLCIkQ29udGVudC1UeXBlIiwiYXBwbGljYXRpb24vcGRmIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMTAyNCwxMDQ4NTc2MDBdLFsiZXEiLCIkeC1hbXotbWV0YS11cGxvYWRlcklkIiwiY2ZjZDI0ZGMtNzA3NC00OWVjLThjMmUtMDQ1NDQ3MzkxNDRkIl0sWyJlcSIsIiR4LWFtei1tZXRhLWNvdXJzZUlkIiwiYzE0MTE4MTAtZDgyNS00MjU1LWI3MTQtMjc5MGQ5ZDg2YTQyIl0sWyJlcSIsIiR4LWFtei1tZXRhLWZpbGVOYW1lIiwiT3BlblRhcGlvY2E6IExpZ2h0d2VpZ2h0IEVudGl0eSBMaW5raW5nIGZvciBXaWtpZGF0YSJdLFsiZXEiLCIkeC1hbXotZGF0ZSIsIjIwMjQwMjIzVDE4NDA0MloiXSxbImVxIiwiJHgtYW16LWFsZ29yaXRobSIsIkFXUzQtSE1BQy1TSEEyNTYiXSxbImVxIiwiJHgtYW16LWNyZWRlbnRpYWwiLCJtaW5pby8yMDI0MDIyMy91cy1lYXN0LTEvczMvYXdzNF9yZXF1ZXN0Il1dLCJleHBpcmF0aW9uIjoiMjAyNC0wMi0yM1QyMDo0MDowMC42ODVaIn0=",
+        "x-amz-signature": "4fcdfdd271235897d2646f8c9c08021a4fdeeb76d6291fc3710516da6f643ddb"
+      }
+    },
+    {
+      "postURL": "http://localhost:9000/gptutor",
+      "formData": {
+        "bucket": "gptutor",
+        "key": "c1411810-d825-4255-b714-2790d9d86a42/Spotting Rumors via Novelty Detection",
+        "Content-Type": "application/pdf",
+        "x-amz-meta-uploaderId": "cfcd24dc-7074-49ec-8c2e-04544739144d",
+        "x-amz-meta-courseId": "c1411810-d825-4255-b714-2790d9d86a42",
+        "x-amz-meta-fileName": "Spotting Rumors via Novelty Detection",
+        "x-amz-date": "20240223T184042Z",
+        "x-amz-algorithm": "AWS4-HMAC-SHA256",
+        "x-amz-credential": "minio/20240223/us-east-1/s3/aws4_request",
+        "policy": "eyJjb25kaXRpb25zIjpbWyJlcSIsIiRidWNrZXQiLCJncHR1dG9yIl0sWyJlcSIsIiRrZXkiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIvU3BvdHRpbmcgUnVtb3JzIHZpYSBOb3ZlbHR5IERldGVjdGlvbiJdLFsiZXEiLCIkQ29udGVudC1UeXBlIiwiYXBwbGljYXRpb24vcGRmIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMTAyNCwxMDQ4NTc2MDBdLFsiZXEiLCIkeC1hbXotbWV0YS11cGxvYWRlcklkIiwiY2ZjZDI0ZGMtNzA3NC00OWVjLThjMmUtMDQ1NDQ3MzkxNDRkIl0sWyJlcSIsIiR4LWFtei1tZXRhLWNvdXJzZUlkIiwiYzE0MTE4MTAtZDgyNS00MjU1LWI3MTQtMjc5MGQ5ZDg2YTQyIl0sWyJlcSIsIiR4LWFtei1tZXRhLWZpbGVOYW1lIiwiU3BvdHRpbmcgUnVtb3JzIHZpYSBOb3ZlbHR5IERldGVjdGlvbiJdLFsiZXEiLCIkeC1hbXotZGF0ZSIsIjIwMjQwMjIzVDE4NDA0MloiXSxbImVxIiwiJHgtYW16LWFsZ29yaXRobSIsIkFXUzQtSE1BQy1TSEEyNTYiXSxbImVxIiwiJHgtYW16LWNyZWRlbnRpYWwiLCJtaW5pby8yMDI0MDIyMy91cy1lYXN0LTEvczMvYXdzNF9yZXF1ZXN0Il1dLCJleHBpcmF0aW9uIjoiMjAyNC0wMi0yM1QyMDo0MDowMC42ODlaIn0=",
+        "x-amz-signature": "5374335c3a9b4bba1ec38367265dd4a68d52aa1b751dcd2d64bba072d2d430fe"
+      }
+    },
+    {
+      "postURL": "http://localhost:9000/gptutor",
+      "formData": {
+        "bucket": "gptutor",
+        "key": "c1411810-d825-4255-b714-2790d9d86a42/Sentence Level Recurrent Topic Model: Letting Topics Speak for Themselves",
+        "Content-Type": "application/pdf",
+        "x-amz-meta-uploaderId": "cfcd24dc-7074-49ec-8c2e-04544739144d",
+        "x-amz-meta-courseId": "c1411810-d825-4255-b714-2790d9d86a42",
+        "x-amz-meta-fileName": "Sentence Level Recurrent Topic Model: Letting Topics Speak for Themselves",
+        "x-amz-date": "20240223T184042Z",
+        "x-amz-algorithm": "AWS4-HMAC-SHA256",
+        "x-amz-credential": "minio/20240223/us-east-1/s3/aws4_request",
+        "policy": "eyJjb25kaXRpb25zIjpbWyJlcSIsIiRidWNrZXQiLCJncHR1dG9yIl0sWyJlcSIsIiRrZXkiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIvU2VudGVuY2UgTGV2ZWwgUmVjdXJyZW50IFRvcGljIE1vZGVsOiBMZXR0aW5nIFRvcGljcyBTcGVhayBmb3IgVGhlbXNlbHZlcyJdLFsiZXEiLCIkQ29udGVudC1UeXBlIiwiYXBwbGljYXRpb24vcGRmIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMTAyNCwxMDQ4NTc2MDBdLFsiZXEiLCIkeC1hbXotbWV0YS11cGxvYWRlcklkIiwiY2ZjZDI0ZGMtNzA3NC00OWVjLThjMmUtMDQ1NDQ3MzkxNDRkIl0sWyJlcSIsIiR4LWFtei1tZXRhLWNvdXJzZUlkIiwiYzE0MTE4MTAtZDgyNS00MjU1LWI3MTQtMjc5MGQ5ZDg2YTQyIl0sWyJlcSIsIiR4LWFtei1tZXRhLWZpbGVOYW1lIiwiU2VudGVuY2UgTGV2ZWwgUmVjdXJyZW50IFRvcGljIE1vZGVsOiBMZXR0aW5nIFRvcGljcyBTcGVhayBmb3IgVGhlbXNlbHZlcyJdLFsiZXEiLCIkeC1hbXotZGF0ZSIsIjIwMjQwMjIzVDE4NDA0MloiXSxbImVxIiwiJHgtYW16LWFsZ29yaXRobSIsIkFXUzQtSE1BQy1TSEEyNTYiXSxbImVxIiwiJHgtYW16LWNyZWRlbnRpYWwiLCJtaW5pby8yMDI0MDIyMy91cy1lYXN0LTEvczMvYXdzNF9yZXF1ZXN0Il1dLCJleHBpcmF0aW9uIjoiMjAyNC0wMi0yM1QyMDo0MDowMC42ODlaIn0=",
+        "x-amz-signature": "9686a5c6be8d48b0f2d0ddfc81905a0cd02b5c31520bfe503e0aac2911c7d3f2"
+      }
+    },
+    {
+      "postURL": "http://localhost:9000/gptutor",
+      "formData": {
+        "bucket": "gptutor",
+        "key": "c1411810-d825-4255-b714-2790d9d86a42/TENER: Adapting Transformer Encoder for Named Entity Recognition",
+        "Content-Type": "application/pdf",
+        "x-amz-meta-uploaderId": "cfcd24dc-7074-49ec-8c2e-04544739144d",
+        "x-amz-meta-courseId": "c1411810-d825-4255-b714-2790d9d86a42",
+        "x-amz-meta-fileName": "TENER: Adapting Transformer Encoder for Named Entity Recognition",
+        "x-amz-date": "20240223T184042Z",
+        "x-amz-algorithm": "AWS4-HMAC-SHA256",
+        "x-amz-credential": "minio/20240223/us-east-1/s3/aws4_request",
+        "policy": "eyJjb25kaXRpb25zIjpbWyJlcSIsIiRidWNrZXQiLCJncHR1dG9yIl0sWyJlcSIsIiRrZXkiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIvVEVORVI6IEFkYXB0aW5nIFRyYW5zZm9ybWVyIEVuY29kZXIgZm9yIE5hbWVkIEVudGl0eSBSZWNvZ25pdGlvbiJdLFsiZXEiLCIkQ29udGVudC1UeXBlIiwiYXBwbGljYXRpb24vcGRmIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMTAyNCwxMDQ4NTc2MDBdLFsiZXEiLCIkeC1hbXotbWV0YS11cGxvYWRlcklkIiwiY2ZjZDI0ZGMtNzA3NC00OWVjLThjMmUtMDQ1NDQ3MzkxNDRkIl0sWyJlcSIsIiR4LWFtei1tZXRhLWNvdXJzZUlkIiwiYzE0MTE4MTAtZDgyNS00MjU1LWI3MTQtMjc5MGQ5ZDg2YTQyIl0sWyJlcSIsIiR4LWFtei1tZXRhLWZpbGVOYW1lIiwiVEVORVI6IEFkYXB0aW5nIFRyYW5zZm9ybWVyIEVuY29kZXIgZm9yIE5hbWVkIEVudGl0eSBSZWNvZ25pdGlvbiJdLFsiZXEiLCIkeC1hbXotZGF0ZSIsIjIwMjQwMjIzVDE4NDA0MloiXSxbImVxIiwiJHgtYW16LWFsZ29yaXRobSIsIkFXUzQtSE1BQy1TSEEyNTYiXSxbImVxIiwiJHgtYW16LWNyZWRlbnRpYWwiLCJtaW5pby8yMDI0MDIyMy91cy1lYXN0LTEvczMvYXdzNF9yZXF1ZXN0Il1dLCJleHBpcmF0aW9uIjoiMjAyNC0wMi0yM1QyMDo0MDowMC42ODlaIn0=",
+        "x-amz-signature": "a2172207d2f3e327f4e8a30a60019ec386f8d916960b07d3816815276b453b91"
+      }
+    },
+    {
+      "postURL": "http://localhost:9000/gptutor",
+      "formData": {
+        "bucket": "gptutor",
+        "key": "c1411810-d825-4255-b714-2790d9d86a42/Knowledge Authoring and Question Answering with KALM",
+        "Content-Type": "application/pdf",
+        "x-amz-meta-uploaderId": "cfcd24dc-7074-49ec-8c2e-04544739144d",
+        "x-amz-meta-courseId": "c1411810-d825-4255-b714-2790d9d86a42",
+        "x-amz-meta-fileName": "Knowledge Authoring and Question Answering with KALM",
+        "x-amz-date": "20240223T184042Z",
+        "x-amz-algorithm": "AWS4-HMAC-SHA256",
+        "x-amz-credential": "minio/20240223/us-east-1/s3/aws4_request",
+        "policy": "eyJjb25kaXRpb25zIjpbWyJlcSIsIiRidWNrZXQiLCJncHR1dG9yIl0sWyJlcSIsIiRrZXkiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIvS25vd2xlZGdlIEF1dGhvcmluZyBhbmQgUXVlc3Rpb24gQW5zd2VyaW5nIHdpdGggS0FMTSJdLFsiZXEiLCIkQ29udGVudC1UeXBlIiwiYXBwbGljYXRpb24vcGRmIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMTAyNCwxMDQ4NTc2MDBdLFsiZXEiLCIkeC1hbXotbWV0YS11cGxvYWRlcklkIiwiY2ZjZDI0ZGMtNzA3NC00OWVjLThjMmUtMDQ1NDQ3MzkxNDRkIl0sWyJlcSIsIiR4LWFtei1tZXRhLWNvdXJzZUlkIiwiYzE0MTE4MTAtZDgyNS00MjU1LWI3MTQtMjc5MGQ5ZDg2YTQyIl0sWyJlcSIsIiR4LWFtei1tZXRhLWZpbGVOYW1lIiwiS25vd2xlZGdlIEF1dGhvcmluZyBhbmQgUXVlc3Rpb24gQW5zd2VyaW5nIHdpdGggS0FMTSJdLFsiZXEiLCIkeC1hbXotZGF0ZSIsIjIwMjQwMjIzVDE4NDA0MloiXSxbImVxIiwiJHgtYW16LWFsZ29yaXRobSIsIkFXUzQtSE1BQy1TSEEyNTYiXSxbImVxIiwiJHgtYW16LWNyZWRlbnRpYWwiLCJtaW5pby8yMDI0MDIyMy91cy1lYXN0LTEvczMvYXdzNF9yZXF1ZXN0Il1dLCJleHBpcmF0aW9uIjoiMjAyNC0wMi0yM1QyMDo0MDowMC42ODlaIn0=",
+        "x-amz-signature": "4243f38b3d088b77d9ac73fb1a7a8917ac64cfff2a40ba4562b4b8494df4d484"
+      }
+    },
+    {
+      "postURL": "http://localhost:9000/gptutor",
+      "formData": {
+        "bucket": "gptutor",
+        "key": "c1411810-d825-4255-b714-2790d9d86a42/Italian Event Detection Goes Deep Learning",
+        "Content-Type": "application/pdf",
+        "x-amz-meta-uploaderId": "cfcd24dc-7074-49ec-8c2e-04544739144d",
+        "x-amz-meta-courseId": "c1411810-d825-4255-b714-2790d9d86a42",
+        "x-amz-meta-fileName": "Italian Event Detection Goes Deep Learning",
+        "x-amz-date": "20240223T184042Z",
+        "x-amz-algorithm": "AWS4-HMAC-SHA256",
+        "x-amz-credential": "minio/20240223/us-east-1/s3/aws4_request",
+        "policy": "eyJjb25kaXRpb25zIjpbWyJlcSIsIiRidWNrZXQiLCJncHR1dG9yIl0sWyJlcSIsIiRrZXkiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIvSXRhbGlhbiBFdmVudCBEZXRlY3Rpb24gR29lcyBEZWVwIExlYXJuaW5nIl0sWyJlcSIsIiRDb250ZW50LVR5cGUiLCJhcHBsaWNhdGlvbi9wZGYiXSxbImNvbnRlbnQtbGVuZ3RoLXJhbmdlIiwxMDI0LDEwNDg1NzYwMF0sWyJlcSIsIiR4LWFtei1tZXRhLXVwbG9hZGVySWQiLCJjZmNkMjRkYy03MDc0LTQ5ZWMtOGMyZS0wNDU0NDczOTE0NGQiXSxbImVxIiwiJHgtYW16LW1ldGEtY291cnNlSWQiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIiXSxbImVxIiwiJHgtYW16LW1ldGEtZmlsZU5hbWUiLCJJdGFsaWFuIEV2ZW50IERldGVjdGlvbiBHb2VzIERlZXAgTGVhcm5pbmciXSxbImVxIiwiJHgtYW16LWRhdGUiLCIyMDI0MDIyM1QxODQwNDJaIl0sWyJlcSIsIiR4LWFtei1hbGdvcml0aG0iLCJBV1M0LUhNQUMtU0hBMjU2Il0sWyJlcSIsIiR4LWFtei1jcmVkZW50aWFsIiwibWluaW8vMjAyNDAyMjMvdXMtZWFzdC0xL3MzL2F3czRfcmVxdWVzdCJdXSwiZXhwaXJhdGlvbiI6IjIwMjQtMDItMjNUMjA6NDA6MDAuNjg5WiJ9",
+        "x-amz-signature": "7cefcbd612357b43517185b1df7ddcb595f12d59d1c3733de002eb6791a60221"
+      }
+    },
+    {
+      "postURL": "http://localhost:9000/gptutor",
+      "formData": {
+        "bucket": "gptutor",
+        "key": "c1411810-d825-4255-b714-2790d9d86a42/Automatically Inferring Gender Associations from Language",
+        "Content-Type": "application/pdf",
+        "x-amz-meta-uploaderId": "cfcd24dc-7074-49ec-8c2e-04544739144d",
+        "x-amz-meta-courseId": "c1411810-d825-4255-b714-2790d9d86a42",
+        "x-amz-meta-fileName": "Automatically Inferring Gender Associations from Language",
+        "x-amz-date": "20240223T184042Z",
+        "x-amz-algorithm": "AWS4-HMAC-SHA256",
+        "x-amz-credential": "minio/20240223/us-east-1/s3/aws4_request",
+        "policy": "eyJjb25kaXRpb25zIjpbWyJlcSIsIiRidWNrZXQiLCJncHR1dG9yIl0sWyJlcSIsIiRrZXkiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIvQXV0b21hdGljYWxseSBJbmZlcnJpbmcgR2VuZGVyIEFzc29jaWF0aW9ucyBmcm9tIExhbmd1YWdlIl0sWyJlcSIsIiRDb250ZW50LVR5cGUiLCJhcHBsaWNhdGlvbi9wZGYiXSxbImNvbnRlbnQtbGVuZ3RoLXJhbmdlIiwxMDI0LDEwNDg1NzYwMF0sWyJlcSIsIiR4LWFtei1tZXRhLXVwbG9hZGVySWQiLCJjZmNkMjRkYy03MDc0LTQ5ZWMtOGMyZS0wNDU0NDczOTE0NGQiXSxbImVxIiwiJHgtYW16LW1ldGEtY291cnNlSWQiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIiXSxbImVxIiwiJHgtYW16LW1ldGEtZmlsZU5hbWUiLCJBdXRvbWF0aWNhbGx5IEluZmVycmluZyBHZW5kZXIgQXNzb2NpYXRpb25zIGZyb20gTGFuZ3VhZ2UiXSxbImVxIiwiJHgtYW16LWRhdGUiLCIyMDI0MDIyM1QxODQwNDJaIl0sWyJlcSIsIiR4LWFtei1hbGdvcml0aG0iLCJBV1M0LUhNQUMtU0hBMjU2Il0sWyJlcSIsIiR4LWFtei1jcmVkZW50aWFsIiwibWluaW8vMjAyNDAyMjMvdXMtZWFzdC0xL3MzL2F3czRfcmVxdWVzdCJdXSwiZXhwaXJhdGlvbiI6IjIwMjQtMDItMjNUMjA6NDA6MDAuNjg5WiJ9",
+        "x-amz-signature": "7ecb9f80b0221ec263720a98c0d98298db5370989817243afaa62a3c5b4d6325"
+      }
+    },
+    {
+      "postURL": "http://localhost:9000/gptutor",
+      "formData": {
+        "bucket": "gptutor",
+        "key": "c1411810-d825-4255-b714-2790d9d86a42/A Crowd-based Evaluation of Abuse Response Strategies in Conversational Agents",
+        "Content-Type": "application/pdf",
+        "x-amz-meta-uploaderId": "cfcd24dc-7074-49ec-8c2e-04544739144d",
+        "x-amz-meta-courseId": "c1411810-d825-4255-b714-2790d9d86a42",
+        "x-amz-meta-fileName": "A Crowd-based Evaluation of Abuse Response Strategies in Conversational Agents",
+        "x-amz-date": "20240223T184042Z",
+        "x-amz-algorithm": "AWS4-HMAC-SHA256",
+        "x-amz-credential": "minio/20240223/us-east-1/s3/aws4_request",
+        "policy": "eyJjb25kaXRpb25zIjpbWyJlcSIsIiRidWNrZXQiLCJncHR1dG9yIl0sWyJlcSIsIiRrZXkiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIvQSBDcm93ZC1iYXNlZCBFdmFsdWF0aW9uIG9mIEFidXNlIFJlc3BvbnNlIFN0cmF0ZWdpZXMgaW4gQ29udmVyc2F0aW9uYWwgQWdlbnRzIl0sWyJlcSIsIiRDb250ZW50LVR5cGUiLCJhcHBsaWNhdGlvbi9wZGYiXSxbImNvbnRlbnQtbGVuZ3RoLXJhbmdlIiwxMDI0LDEwNDg1NzYwMF0sWyJlcSIsIiR4LWFtei1tZXRhLXVwbG9hZGVySWQiLCJjZmNkMjRkYy03MDc0LTQ5ZWMtOGMyZS0wNDU0NDczOTE0NGQiXSxbImVxIiwiJHgtYW16LW1ldGEtY291cnNlSWQiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIiXSxbImVxIiwiJHgtYW16LW1ldGEtZmlsZU5hbWUiLCJBIENyb3dkLWJhc2VkIEV2YWx1YXRpb24gb2YgQWJ1c2UgUmVzcG9uc2UgU3RyYXRlZ2llcyBpbiBDb252ZXJzYXRpb25hbCBBZ2VudHMiXSxbImVxIiwiJHgtYW16LWRhdGUiLCIyMDI0MDIyM1QxODQwNDJaIl0sWyJlcSIsIiR4LWFtei1hbGdvcml0aG0iLCJBV1M0LUhNQUMtU0hBMjU2Il0sWyJlcSIsIiR4LWFtei1jcmVkZW50aWFsIiwibWluaW8vMjAyNDAyMjMvdXMtZWFzdC0xL3MzL2F3czRfcmVxdWVzdCJdXSwiZXhwaXJhdGlvbiI6IjIwMjQtMDItMjNUMjA6NDA6MDAuNjg5WiJ9",
+        "x-amz-signature": "db98fa415a46b94c7a0dbc8b746f0fcae399400134c47f9d1f4569f10e333ad9"
+      }
+    },
+    {
+      "postURL": "http://localhost:9000/gptutor",
+      "formData": {
+        "bucket": "gptutor",
+        "key": "c1411810-d825-4255-b714-2790d9d86a42/A Dataset of German Legal Documents for Named Entity Recognition",
+        "Content-Type": "application/pdf",
+        "x-amz-meta-uploaderId": "cfcd24dc-7074-49ec-8c2e-04544739144d",
+        "x-amz-meta-courseId": "c1411810-d825-4255-b714-2790d9d86a42",
+        "x-amz-meta-fileName": "A Dataset of German Legal Documents for Named Entity Recognition",
+        "x-amz-date": "20240223T184042Z",
+        "x-amz-algorithm": "AWS4-HMAC-SHA256",
+        "x-amz-credential": "minio/20240223/us-east-1/s3/aws4_request",
+        "policy": "eyJjb25kaXRpb25zIjpbWyJlcSIsIiRidWNrZXQiLCJncHR1dG9yIl0sWyJlcSIsIiRrZXkiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIvQSBEYXRhc2V0IG9mIEdlcm1hbiBMZWdhbCBEb2N1bWVudHMgZm9yIE5hbWVkIEVudGl0eSBSZWNvZ25pdGlvbiJdLFsiZXEiLCIkQ29udGVudC1UeXBlIiwiYXBwbGljYXRpb24vcGRmIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMTAyNCwxMDQ4NTc2MDBdLFsiZXEiLCIkeC1hbXotbWV0YS11cGxvYWRlcklkIiwiY2ZjZDI0ZGMtNzA3NC00OWVjLThjMmUtMDQ1NDQ3MzkxNDRkIl0sWyJlcSIsIiR4LWFtei1tZXRhLWNvdXJzZUlkIiwiYzE0MTE4MTAtZDgyNS00MjU1LWI3MTQtMjc5MGQ5ZDg2YTQyIl0sWyJlcSIsIiR4LWFtei1tZXRhLWZpbGVOYW1lIiwiQSBEYXRhc2V0IG9mIEdlcm1hbiBMZWdhbCBEb2N1bWVudHMgZm9yIE5hbWVkIEVudGl0eSBSZWNvZ25pdGlvbiJdLFsiZXEiLCIkeC1hbXotZGF0ZSIsIjIwMjQwMjIzVDE4NDA0MloiXSxbImVxIiwiJHgtYW16LWFsZ29yaXRobSIsIkFXUzQtSE1BQy1TSEEyNTYiXSxbImVxIiwiJHgtYW16LWNyZWRlbnRpYWwiLCJtaW5pby8yMDI0MDIyMy91cy1lYXN0LTEvczMvYXdzNF9yZXF1ZXN0Il1dLCJleHBpcmF0aW9uIjoiMjAyNC0wMi0yM1QyMDo0MDowMC42ODlaIn0=",
+        "x-amz-signature": "47893ea6e50b6e2ab23a2a8706084ee8cdd6153f608a1f6eac3464976d914f8e"
+      }
+    },
+    {
+      "postURL": "http://localhost:9000/gptutor",
+      "formData": {
+        "bucket": "gptutor",
+        "key": "c1411810-d825-4255-b714-2790d9d86a42/Character-Level Models versus Morphology in Semantic Role Labeling",
+        "Content-Type": "application/pdf",
+        "x-amz-meta-uploaderId": "cfcd24dc-7074-49ec-8c2e-04544739144d",
+        "x-amz-meta-courseId": "c1411810-d825-4255-b714-2790d9d86a42",
+        "x-amz-meta-fileName": "Character-Level Models versus Morphology in Semantic Role Labeling",
+        "x-amz-date": "20240223T184042Z",
+        "x-amz-algorithm": "AWS4-HMAC-SHA256",
+        "x-amz-credential": "minio/20240223/us-east-1/s3/aws4_request",
+        "policy": "eyJjb25kaXRpb25zIjpbWyJlcSIsIiRidWNrZXQiLCJncHR1dG9yIl0sWyJlcSIsIiRrZXkiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIvQ2hhcmFjdGVyLUxldmVsIE1vZGVscyB2ZXJzdXMgTW9ycGhvbG9neSBpbiBTZW1hbnRpYyBSb2xlIExhYmVsaW5nIl0sWyJlcSIsIiRDb250ZW50LVR5cGUiLCJhcHBsaWNhdGlvbi9wZGYiXSxbImNvbnRlbnQtbGVuZ3RoLXJhbmdlIiwxMDI0LDEwNDg1NzYwMF0sWyJlcSIsIiR4LWFtei1tZXRhLXVwbG9hZGVySWQiLCJjZmNkMjRkYy03MDc0LTQ5ZWMtOGMyZS0wNDU0NDczOTE0NGQiXSxbImVxIiwiJHgtYW16LW1ldGEtY291cnNlSWQiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIiXSxbImVxIiwiJHgtYW16LW1ldGEtZmlsZU5hbWUiLCJDaGFyYWN0ZXItTGV2ZWwgTW9kZWxzIHZlcnN1cyBNb3JwaG9sb2d5IGluIFNlbWFudGljIFJvbGUgTGFiZWxpbmciXSxbImVxIiwiJHgtYW16LWRhdGUiLCIyMDI0MDIyM1QxODQwNDJaIl0sWyJlcSIsIiR4LWFtei1hbGdvcml0aG0iLCJBV1M0LUhNQUMtU0hBMjU2Il0sWyJlcSIsIiR4LWFtei1jcmVkZW50aWFsIiwibWluaW8vMjAyNDAyMjMvdXMtZWFzdC0xL3MzL2F3czRfcmVxdWVzdCJdXSwiZXhwaXJhdGlvbiI6IjIwMjQtMDItMjNUMjA6NDA6MDAuNjg5WiJ9",
+        "x-amz-signature": "855d35efecec0cdae6ec0f84d21036f4b670e341c55003deb9c9081d00219d44"
+      }
+    },
+    {
+      "postURL": "http://localhost:9000/gptutor",
+      "formData": {
+        "bucket": "gptutor",
+        "key": "c1411810-d825-4255-b714-2790d9d86a42/Look, Read and Enrich - Learning from Scientific Figures and their Captions",
+        "Content-Type": "application/pdf",
+        "x-amz-meta-uploaderId": "cfcd24dc-7074-49ec-8c2e-04544739144d",
+        "x-amz-meta-courseId": "c1411810-d825-4255-b714-2790d9d86a42",
+        "x-amz-meta-fileName": "Look, Read and Enrich - Learning from Scientific Figures and their Captions",
+        "x-amz-date": "20240223T184042Z",
+        "x-amz-algorithm": "AWS4-HMAC-SHA256",
+        "x-amz-credential": "minio/20240223/us-east-1/s3/aws4_request",
+        "policy": "eyJjb25kaXRpb25zIjpbWyJlcSIsIiRidWNrZXQiLCJncHR1dG9yIl0sWyJlcSIsIiRrZXkiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIvTG9vaywgUmVhZCBhbmQgRW5yaWNoIC0gTGVhcm5pbmcgZnJvbSBTY2llbnRpZmljIEZpZ3VyZXMgYW5kIHRoZWlyIENhcHRpb25zIl0sWyJlcSIsIiRDb250ZW50LVR5cGUiLCJhcHBsaWNhdGlvbi9wZGYiXSxbImNvbnRlbnQtbGVuZ3RoLXJhbmdlIiwxMDI0LDEwNDg1NzYwMF0sWyJlcSIsIiR4LWFtei1tZXRhLXVwbG9hZGVySWQiLCJjZmNkMjRkYy03MDc0LTQ5ZWMtOGMyZS0wNDU0NDczOTE0NGQiXSxbImVxIiwiJHgtYW16LW1ldGEtY291cnNlSWQiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIiXSxbImVxIiwiJHgtYW16LW1ldGEtZmlsZU5hbWUiLCJMb29rLCBSZWFkIGFuZCBFbnJpY2ggLSBMZWFybmluZyBmcm9tIFNjaWVudGlmaWMgRmlndXJlcyBhbmQgdGhlaXIgQ2FwdGlvbnMiXSxbImVxIiwiJHgtYW16LWRhdGUiLCIyMDI0MDIyM1QxODQwNDJaIl0sWyJlcSIsIiR4LWFtei1hbGdvcml0aG0iLCJBV1M0LUhNQUMtU0hBMjU2Il0sWyJlcSIsIiR4LWFtei1jcmVkZW50aWFsIiwibWluaW8vMjAyNDAyMjMvdXMtZWFzdC0xL3MzL2F3czRfcmVxdWVzdCJdXSwiZXhwaXJhdGlvbiI6IjIwMjQtMDItMjNUMjA6NDA6MDAuNjg5WiJ9",
+        "x-amz-signature": "5f47cd1ee034ec494c6bdc5d99f18b9850cfe51251a96193fce1b9afab5a82cb"
+      }
+    },
+    {
+      "postURL": "http://localhost:9000/gptutor",
+      "formData": {
+        "bucket": "gptutor",
+        "key": "c1411810-d825-4255-b714-2790d9d86a42/EmoAtt at EmoInt-2017: Inner attention sentence embedding for Emotion Intensity",
+        "Content-Type": "application/pdf",
+        "x-amz-meta-uploaderId": "cfcd24dc-7074-49ec-8c2e-04544739144d",
+        "x-amz-meta-courseId": "c1411810-d825-4255-b714-2790d9d86a42",
+        "x-amz-meta-fileName": "EmoAtt at EmoInt-2017: Inner attention sentence embedding for Emotion Intensity",
+        "x-amz-date": "20240223T184042Z",
+        "x-amz-algorithm": "AWS4-HMAC-SHA256",
+        "x-amz-credential": "minio/20240223/us-east-1/s3/aws4_request",
+        "policy": "eyJjb25kaXRpb25zIjpbWyJlcSIsIiRidWNrZXQiLCJncHR1dG9yIl0sWyJlcSIsIiRrZXkiLCJjMTQxMTgxMC1kODI1LTQyNTUtYjcxNC0yNzkwZDlkODZhNDIvRW1vQXR0IGF0IEVtb0ludC0yMDE3OiBJbm5lciBhdHRlbnRpb24gc2VudGVuY2UgZW1iZWRkaW5nIGZvciBFbW90aW9uIEludGVuc2l0eSJdLFsiZXEiLCIkQ29udGVudC1UeXBlIiwiYXBwbGljYXRpb24vcGRmIl0sWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMTAyNCwxMDQ4NTc2MDBdLFsiZXEiLCIkeC1hbXotbWV0YS11cGxvYWRlcklkIiwiY2ZjZDI0ZGMtNzA3NC00OWVjLThjMmUtMDQ1NDQ3MzkxNDRkIl0sWyJlcSIsIiR4LWFtei1tZXRhLWNvdXJzZUlkIiwiYzE0MTE4MTAtZDgyNS00MjU1LWI3MTQtMjc5MGQ5ZDg2YTQyIl0sWyJlcSIsIiR4LWFtei1tZXRhLWZpbGVOYW1lIiwiRW1vQXR0IGF0IEVtb0ludC0yMDE3OiBJbm5lciBhdHRlbnRpb24gc2VudGVuY2UgZW1iZWRkaW5nIGZvciBFbW90aW9uIEludGVuc2l0eSJdLFsiZXEiLCIkeC1hbXotZGF0ZSIsIjIwMjQwMjIzVDE4NDA0MloiXSxbImVxIiwiJHgtYW16LWFsZ29yaXRobSIsIkFXUzQtSE1BQy1TSEEyNTYiXSxbImVxIiwiJHgtYW16LWNyZWRlbnRpYWwiLCJtaW5pby8yMDI0MDIyMy91cy1lYXN0LTEvczMvYXdzNF9yZXF1ZXN0Il1dLCJleHBpcmF0aW9uIjoiMjAyNC0wMi0yM1QyMDo0MDowMC42ODlaIn0=",
+        "x-amz-signature": "1116de15e23287261b7a190df9e1392c7bcffccfed71ce113a51df975fa6ef94"
+      }
+    }
+  ]
+}
