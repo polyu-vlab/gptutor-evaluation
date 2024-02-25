@@ -1,7 +1,0 @@
-{
-    "question": "How do they determine demographics on an image?",
-    "ground_truth": "using model driven face detection, apparent age annotation and gender annotation"
-}{
-    "question": "What is the most underrepresented person group in ILSVRC?",
-    "ground_truth": "Females and males with age 75+"
-}

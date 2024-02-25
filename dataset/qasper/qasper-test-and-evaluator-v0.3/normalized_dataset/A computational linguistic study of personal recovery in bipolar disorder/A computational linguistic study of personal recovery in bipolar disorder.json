@@ -1,7 +1,0 @@
-{
-    "question": "Was permission sought from the bipolar patients to use this data?",
-    "ground_truth": "For Twitter and Reddit users , implicit consent is assumed to use their public tweets. Blog users are  contacted to obtain consent for using their texts."
-}{
-    "question": "How are the individuals with bipolar disorder identified?",
-    "ground_truth": "Twitter and Reddit users  are identified automatically  via self-reported diagnosis statements. Blog users are identified manually."
-}

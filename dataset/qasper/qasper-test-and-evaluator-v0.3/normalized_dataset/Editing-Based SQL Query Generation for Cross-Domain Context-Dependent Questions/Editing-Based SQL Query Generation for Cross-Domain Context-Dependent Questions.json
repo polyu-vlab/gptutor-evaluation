@@ -1,4 +1,0 @@
-{
-    "question": "What are state-of-the-art baselines?",
-    "ground_truth": "For SParC, context-dependent seq2seq and syntaxSQL-con. For Spider, a recursive decoding procedure, graph neural networks, and intermediate representation models."
-}

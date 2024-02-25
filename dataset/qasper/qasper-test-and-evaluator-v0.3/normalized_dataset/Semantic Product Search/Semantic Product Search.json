@@ -1,4 +1,0 @@
-{
-    "question": "What dataset is used for training?",
-    "ground_truth": "a self-collected dataset of 11 months of search logs as query-product pairs"
-}

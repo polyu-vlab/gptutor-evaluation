@@ -1,7 +1,0 @@
-{
-    "question": "How is the sentence alignment quality evaluated?",
-    "ground_truth": "Through human evaluation on a 5-point scale for text alignment and 3-point scale for audio-text"
-}{
-    "question": "How is the speech alignment quality evaluated?",
-    "ground_truth": "Through a 3-point scale by annotators."
-}

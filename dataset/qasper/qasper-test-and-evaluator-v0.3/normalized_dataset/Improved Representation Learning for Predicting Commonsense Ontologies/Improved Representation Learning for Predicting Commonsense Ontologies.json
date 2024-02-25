@@ -1,7 +1,0 @@
-{
-    "question": "What types of commonsense knowledge are they talking about?",
-    "ground_truth": "Hypernymy or is-a relations between words or phrases"
-}{
-    "question": "What do they mean by intrinsic geometry of spaces of learned representations?",
-    "ground_truth": "The intrinsic geometry is that the general concept embedding should be smaller than the specific concept embedding in every coordinate of the embeddings"
-}

@@ -1,7 +1,0 @@
-{
-    "question": "How exactly do they weigh between different statistical models?",
-    "ground_truth": "They define cWeight as weight obtained for each sentence using all the models where the sentences is in the summary of predicted by each model."
-}{
-    "question": "What showed to be the best performing combination of semantic and statistical model on the summarization task in terms of ROUGE score?",
-    "ground_truth": "Combination of Jaccard/Cosine Similarity Matrix, TextRank and  InferSent Based Model"
-}

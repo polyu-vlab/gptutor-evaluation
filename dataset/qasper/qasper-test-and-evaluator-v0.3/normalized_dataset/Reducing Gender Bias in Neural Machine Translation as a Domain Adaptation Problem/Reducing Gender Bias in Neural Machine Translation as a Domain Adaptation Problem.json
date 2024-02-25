@@ -1,7 +1,0 @@
-{
-    "question": "How does lattice rescoring improve inference?",
-    "ground_truth": "By transducing initial hypotheses produced by the biased baseline system to create gender-inflected search spaces which can\nbe rescored by the adapted model"
-}{
-    "question": "How is the set of trusted, gender-balanced examples selected?",
-    "ground_truth": "They select professions from the list collected by BIBREF4 from US labour statistics and manually translate masculine and feminine examples"
-}

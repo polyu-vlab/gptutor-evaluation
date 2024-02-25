@@ -1,4 +1,0 @@
-{
-    "question": "How are biases identified in the dataset?",
-    "ground_truth": "They identify biases as lexical choice and sentence length for right and wrong answer options in an isolated context, without the question and paragraph context that typically precedes answer options. Lexical choice was identified by calculating per-token correlation scores with \"right\" and \"wrong labels. They calculated the average sentence length for \"right\" and \"wrong\" sentences."
-}

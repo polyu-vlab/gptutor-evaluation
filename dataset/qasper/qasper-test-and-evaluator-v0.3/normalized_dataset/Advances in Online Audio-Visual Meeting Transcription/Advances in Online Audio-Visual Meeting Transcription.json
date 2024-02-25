@@ -1,7 +1,0 @@
-{
-    "question": "Are face tracking, identification, localization etc multimodal inputs in some ML model or system is programmed by hand?",
-    "ground_truth": "Face tracking is performed in an automatic tracklet module, face identification is performed by creating a face embedding from the output of a CNN, the embedding is then compared to a gallery of each person's face using a discriminative classifier (SVM) and localization is modelled with a complex angular central Gaussian model. All are merged in a statistical model. "
-}{
-    "question": "What are baselines used?",
-    "ground_truth": "The baseline system was a conventional speech recognition approach using single-output beamforming."
-}

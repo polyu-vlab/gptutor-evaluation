@@ -1,7 +1,0 @@
-{
-    "question": "How do they compare representations performance obtained from a naive encoder versus ones learned from large amount of source language data?",
-    "ground_truth": "They compare retrieval performance in MAP."
-}{
-    "question": "Which pairs of languages do they consider similar enough to capture phonetic structure?",
-    "ground_truth": "English paired with any of the following: French, German, Czech, Spanish."
-}

@@ -1,4 +1,0 @@
-{
-    "question": "What are the baseline models?",
-    "ground_truth": "PBMT-R, Hybrid, SBMT+PPDB+SARI, DRESS-LS, Pointer+Ent+Par, NTS+SARI, NSELSTM-S and DMASS+DCSS"
-}

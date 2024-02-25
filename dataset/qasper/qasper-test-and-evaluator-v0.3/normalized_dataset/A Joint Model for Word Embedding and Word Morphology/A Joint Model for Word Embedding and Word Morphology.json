@@ -1,7 +1,0 @@
-{
-    "question": "Is there a difference between the model's performance for morphologically impoverished and morphologically complex languages?",
-    "ground_truth": "They did not report results for English but expect that morphologically complex languages will perform better."
-}{
-    "question": "How are the embeddings evaluated in the human judgement comparison?",
-    "ground_truth": "Using cosine similarity between the embeddings which is then correlated with human judgement"
-}

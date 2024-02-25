@@ -1,7 +1,0 @@
-{
-    "question": "What translation models are explored?",
-    "ground_truth": "LSTM with attention"
-}{
-    "question": "What is symbolic rewriting?",
-    "ground_truth": "It is a process of translating a set of formal symbolic data to another set of formal symbolic data."
-}

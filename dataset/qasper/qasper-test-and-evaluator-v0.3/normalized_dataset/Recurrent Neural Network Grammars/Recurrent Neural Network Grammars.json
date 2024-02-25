@@ -1,4 +1,0 @@
-{
-    "question": "what state of the art models do they compare to?",
-    "ground_truth": "Vinyals et al (2015) for English parsing, Wang et al (2015) for Chinese parsing, and LSTM LM for Language modeling both in English and Chinese "
-}

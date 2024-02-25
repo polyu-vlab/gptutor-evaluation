@@ -1,4 +1,0 @@
-{
-    "question": "What textual features are used?",
-    "ground_truth": "emotion features, bad and sexual language features, stance towards some topics, bias cues, linguistic features from LIWC and morality cues"
-}

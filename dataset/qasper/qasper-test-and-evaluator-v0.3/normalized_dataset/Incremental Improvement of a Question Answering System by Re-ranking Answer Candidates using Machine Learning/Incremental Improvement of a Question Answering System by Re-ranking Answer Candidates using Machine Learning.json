@@ -1,7 +1,0 @@
-{
-    "question": "What QA system was used in this work?",
-    "ground_truth": "Rasa natural language understanding framework"
-}{
-    "question": "How big is the test set used for evaluating the proposed re-ranking approach?",
-    "ground_truth": "3084 real user requests  assigned to suitable answers from the training corpus."
-}

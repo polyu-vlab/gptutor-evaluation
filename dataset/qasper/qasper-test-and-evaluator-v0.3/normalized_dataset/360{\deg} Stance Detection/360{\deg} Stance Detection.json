@@ -1,4 +1,0 @@
-{
-    "question": "what dataset did they use for this tool?",
-    "ground_truth": "They collect data using the AYLIEN News API,  which provides search capabilities for news articles enriched with extracted entities and other metadata and take a step to compile a curated list of topics. The final dataset consists of 32,227 pairs of news articles and topics annotated with their stance. "
-}

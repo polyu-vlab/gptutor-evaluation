@@ -1,4 +1,0 @@
-{
-    "question": "What are the solutions proposed for the seq2seq shortcomings?",
-    "ground_truth": "label smoothing, use of coverage"
-}

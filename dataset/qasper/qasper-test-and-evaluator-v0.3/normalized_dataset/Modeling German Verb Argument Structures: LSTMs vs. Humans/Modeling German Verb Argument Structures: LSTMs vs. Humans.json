@@ -1,4 +1,0 @@
-{
-    "question": "What are the performances of LSTMs and humans on the task?",
-    "ground_truth": "LTSM 0.56 AUC, humans 0.58 AUC"
-}

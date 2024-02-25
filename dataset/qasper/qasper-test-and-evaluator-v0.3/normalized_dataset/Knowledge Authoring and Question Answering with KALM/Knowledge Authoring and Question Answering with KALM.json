@@ -1,7 +1,0 @@
-{
-    "question": "What was their accuracy score?",
-    "ground_truth": "95.6% on knowledge authoring, 95% on the manually constructed QA dataset and 100% accuracy on the MetaQA dataset"
-}{
-    "question": "What dataset did they evaluate on?",
-    "ground_truth": "dataset consisting 250 sentences adapted from FrameNet exemplar sentences, dataset consisting general questions based on 50 logical framesderived from FrameNet, MetaQA dataset"
-}

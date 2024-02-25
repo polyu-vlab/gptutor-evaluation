@@ -1,7 +1,0 @@
-{
-    "question": "what other representations do they compare with?",
-    "ground_truth": "Word2vec averaging (public release 300d), word2vec averaging (academic corpus), Paragraph Vector"
-}{
-    "question": "what dataset was used?",
-    "ground_truth": "For the document retrieval task - the dataset of the document pool contained 669 academic papers published by IEEE. Fro the document clustering task -  the dataset of 850 academic papers, and 186 associated venues which are used as ground-truth for evaluation."
-}

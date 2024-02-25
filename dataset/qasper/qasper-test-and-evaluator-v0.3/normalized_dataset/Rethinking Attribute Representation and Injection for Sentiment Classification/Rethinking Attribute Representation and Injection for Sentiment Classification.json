@@ -1,7 +1,0 @@
-{
-    "question": "How significant are the improvements over previous approaches?",
-    "ground_truth": "Increase of 2.4%, 1.3%, and 1.6% accuracy on IMDB, Yelp 2013, and Yelp 2014"
-}{
-    "question": "What are the performances associated to different attribute placing?",
-    "ground_truth": "Best accuracy is for proposed CHIM methods (~56% IMDB, ~68.5 YELP datasets), most common bias attention (~53%IMDB, ~65%YELP), and oll others are worse than proposed method."
-}

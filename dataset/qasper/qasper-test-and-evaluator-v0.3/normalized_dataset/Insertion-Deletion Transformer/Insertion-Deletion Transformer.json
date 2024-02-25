@@ -1,4 +1,0 @@
-{
-    "question": "How much is BELU score difference between proposed approach and insertion-only method?",
-    "ground_truth": "Learning shifted alphabetic sequences: 21.34\nCaesar's Cipher: 2.02"
-}

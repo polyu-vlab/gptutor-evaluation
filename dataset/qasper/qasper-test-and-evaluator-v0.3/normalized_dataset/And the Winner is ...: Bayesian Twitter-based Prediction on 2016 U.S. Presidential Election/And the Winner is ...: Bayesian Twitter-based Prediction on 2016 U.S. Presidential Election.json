@@ -1,4 +1,0 @@
-{
-    "question": "what preprocessing method is introduced?",
-    "ground_truth": "Tweets without candidate names are removed, URLs and pictures are removed from the tweets that remain."
-}

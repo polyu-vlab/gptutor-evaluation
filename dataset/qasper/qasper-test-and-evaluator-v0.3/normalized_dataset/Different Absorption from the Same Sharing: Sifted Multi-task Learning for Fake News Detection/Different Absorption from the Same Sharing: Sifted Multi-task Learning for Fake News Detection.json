@@ -1,7 +1,0 @@
-{
-    "question": "What are the hyperparameter setting of the MTL model?",
-    "ground_truth": "size of word embeddings is 200, size of position embedding is 100, the number of attention heads in transformer block is 6, the number of attention block Is 2, dropout of multi-head attention is 0.7, minibatch size is 64, the initiall learning rate is .001. In fake news detection, the dropout rate is 0.3 and lambda is 0.6."
-}{
-    "question": "How is the selected sharing layer trained?",
-    "ground_truth": "The selected sharing layer is trained jointly on the tasks of stance detection and fake news detection"
-}

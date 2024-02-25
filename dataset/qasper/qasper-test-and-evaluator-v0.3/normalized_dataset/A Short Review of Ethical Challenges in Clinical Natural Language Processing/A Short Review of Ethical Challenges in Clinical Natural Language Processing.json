@@ -1,7 +1,0 @@
-{
-    "question": "What sources of less sensitive data are available?",
-    "ground_truth": "MIMICII(I), THYME, results from i2b2 and ShARe/CLEF shared task, MiPACQ, Blulab, EMC Dutch Clinical Corpus, 2010 i2b2/VA, VetCompass"
-}{
-    "question": "Other than privacy, what are the other major ethical challenges in clinical data?",
-    "ground_truth": "sampling bias, unfair treatment due to biased data,  incomplete clinical stories, and reflection of health disparities."
-}
