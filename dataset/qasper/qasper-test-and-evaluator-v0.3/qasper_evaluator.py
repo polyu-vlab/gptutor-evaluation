@@ -1,167 +1,175 @@
 """
-Official script for evaluating models built for the Qasper dataset. The script
-outputs Answer F1 and Evidence F1 reported in the paper.
+Use RAGAS framework to evaluate metrics = [
+    faithfulness,
+    answer_relevancy,
+    context_recall,
+    context_precision,
+] on test_eval_dataset
 """
-from collections import Counter
-import argparse
-import string
-import re
 import json
+import os
+from datasets import Dataset
+import pandas as pd
+
+# component metrics
+from ragas.metrics import (
+    context_precision,
+    answer_relevancy,
+    faithfulness,
+    context_recall,
+)
+
+# end-to-end metrics
+from ragas.metrics import (
+    answer_similarity,
+    answer_correctness
+)
 
 
-def normalize_answer(s):
-    """
-    Taken from the official evaluation script for v1.1 of the SQuAD dataset.
-    Lower text and remove punctuation, articles and extra whitespace.
-    """
-
-    def remove_articles(text):
-        return re.sub(r"\b(a|an|the)\b", " ", text)
-
-    def white_space_fix(text):
-        return " ".join(text.split())
-
-    def remove_punc(text):
-        exclude = set(string.punctuation)
-        return "".join(ch for ch in text if ch not in exclude)
-
-    def lower(text):
-        return text.lower()
-
-    return white_space_fix(remove_articles(remove_punc(lower(s))))
+from ragas.llms.prompt import Prompt
 
 
-def token_f1_score(prediction, ground_truth):
-    """
-    Taken from the official evaluation script for v1.1 of the SQuAD dataset.
-    """
-    prediction_tokens = normalize_answer(prediction).split()
-    ground_truth_tokens = normalize_answer(ground_truth).split()
-    common = Counter(prediction_tokens) & Counter(ground_truth_tokens)
-    num_same = sum(common.values())
-    if num_same == 0:
-        return 0
-    precision = 1.0 * num_same / len(prediction_tokens)
-    recall = 1.0 * num_same / len(ground_truth_tokens)
-    f1 = (2 * precision * recall) / (precision + recall)
-    return f1
+# Customize the prompt of answer_correctness evaluation
+paper_correctness_prompt = Prompt(
+    name="paper_correctness_prompt",
+    instruction="Extract following from given question and any of given ground truths",
+    examples=[
+        {
+            "question": "What are the baselines outperformed by this work?",
+            "answer": "The work proposed in the provided context outperformed two baseline models: TransferTransfo and a hybrid model. The performance was evaluated using both automatic evaluation metrics and human evaluation metrics, showcasing the superiority of the proposed approach over the baselines.",
+            "ground_truth": "TransferTransfo and Hybrid",
+            'Extracted statements': [
+            {
+                'statements that are present in both the answer and the ground truth': ["TransferTransfo and a hybrid model"],
+                'statements present in the answer but not found in the ground truth': [],
+                'relevant statements found in the ground truth but omitted in the answer': [],
+
+            }],
+        },
+        {
+            "question": "How is intent annotated?",
+            "answer": "The intent annotation in non-collaborative tasks is designed with a hierarchical approach, separating on-task and off-task intents. On-task intents are specific actions relevant to the task, while off-task intents encompass more general dialog acts. This approach allows for detailed supervision, with a focus on designing task-specific on-task categories and semantic slots, while utilizing common dialog acts for off-task intents.",
+            "ground_truth": 
+                "using a role-playing task on the Amazon Mechanical Turk platform and collecting typed conversations. Alternative ground truth: Separate on-task and off task intents and annotate on task for data set specific intents, while annotating  off task intents with a fixed set of general intents. \
+                    Alternative ground truth: On-task dialog are annotated as on-task intents , the other dialog are annotated as pre-defined off-task intents.",  
+            
+            'Extracted statements': [
+            {
+                'statements that are present in both the answer and the ground truth': [
+                    "on-task and off-task"
+                ],
+                'statements present in the answer but not found in the ground truth': [
+                ],
+                'relevant statements found in the ground truth but omitted in the answer': [
+                    "Amazon Mechanical Turk platform", 
+                ],
+
+            }],
+        },
+    ],
+    input_keys=['question', 'answer', 'ground_truth'],
+    output_key='Extracted statements',
+    output_type='json',
+    language='english'
+)
+
+answer_correctness.correctness_prompt = paper_correctness_prompt
 
 
-def paragraph_f1_score(prediction, ground_truth):
-    if not ground_truth and not prediction:
-        # The question is unanswerable and the prediction is empty.
-        return 1.0
-    num_same = len(set(ground_truth).intersection(set(prediction)))
-    if num_same == 0:
-        return 0.0
-    precision = num_same / len(prediction)
-    recall = num_same / len(ground_truth) 
-    f1 = (2 * precision * recall) / (precision + recall)
-    return f1
+from langchain_openai.chat_models import AzureChatOpenAI
+from langchain_openai.embeddings import AzureOpenAIEmbeddings
+# from ragas.embeddings import HuggingfaceEmbeddings
+from ragas import evaluate
 
 
-def get_answers_and_evidence(data, text_evidence_only):
-    answers_and_evidence = {}
-    for paper_data in data.values():
-        for qa_info in paper_data["qas"]:
-            question_id = qa_info["question_id"]
-            references = []
-            for annotation_info in qa_info["answers"]:
-                answer_info = annotation_info["answer"]
-                if answer_info["unanswerable"]:
-                    references.append({"answer": "Unanswerable", "evidence": [], "type": "none"})
-                else:
-                    if answer_info["extractive_spans"]:
-                        answer = ", ".join(answer_info["extractive_spans"])
-                        answer_type = "extractive"
-                    elif answer_info["free_form_answer"]:
-                        answer = answer_info["free_form_answer"]
-                        answer_type = "abstractive"
-                    elif answer_info["yes_no"]:
-                        answer = "Yes"
-                        answer_type = "boolean"
-                    elif answer_info["yes_no"] is not None:
-                        answer = "No"
-                        answer_type = "boolean"
-                    else:
-                        raise RuntimeError(f"Annotation {answer_info['annotation_id']} does not contain an answer")
-                    if text_evidence_only:
-                        evidence = [text for text in answer_info["evidence"] if "FLOAT SELECTED" not in text]
-                    else:
-                        evidence = answer_info["evidence"]
-                    references.append({"answer": answer, "evidence": evidence, "type": answer_type})
-            answers_and_evidence[question_id] = references
-
-    return answers_and_evidence
 
 
-def evaluate(gold, predicted):
-    max_answer_f1s = []
-    max_evidence_f1s = []
-    max_answer_f1s_by_type = {
-        "extractive": [],
-        "abstractive": [],
-        "boolean": [],
-        "none": [],
+def gptutor_component_eval():
+    component_metrics = [
+        faithfulness,
+        answer_relevancy,
+        context_recall,
+        context_precision
+    ]
+    print("The result of gptutor model on component evaluation is: ")
+    eval(metrics=component_metrics, dataset_json_path ='./test_eval_dataset/test_eval_dataset.json', 
+         result_csv_path = './test_eval_dataset/test_eval_component_result.csv')
+
+def gptutor_endToend_eval():
+    endToend_metrics = [
+        answer_similarity,
+        answer_correctness
+    ] 
+    print("The result of gptutor model on end-to-end evaluation is: ")
+    eval(metrics=endToend_metrics, dataset_json_path ='./test_eval_dataset/test_eval_dataset.json', 
+         result_csv_path = './test_eval_dataset/test_eval_endToend_result.csv')
+
+
+def baseline_endToend_eval():
+    endToend_metrics = [
+        answer_similarity,
+        answer_correctness
+    ]    
+    print("The result of baseline model on end-to-end evaluation is: ")
+    eval (metrics=endToend_metrics, dataset_json_path ='./test_eval_dataset/test_eval_baseline.json', 
+         result_csv_path = './test_eval_dataset/test_eval_baseline_result.csv')
+    
+
+
+
+def eval(metrics, dataset_json_path, result_csv_path):
+    
+
+
+
+    azure_configs={
+        "chat_base_url": os.getenv("AZURE_OPENAI_GPT_BASE_URL"),
+        "chat_deployment": os.getenv("AZURE_OPENAI_GPT_DEPLOYMENT_NAME"),
+        "chat_name": "gpt-35-turbo",
+        "chat_version": os.getenv("AZURE_OPENAI_GPT_API_VERSION"),
+        "embedding_base_url": os.getenv("AZURE_OPENAI_EMBEDDING_BASE_URL"),
+        "embedding_deployment": os.getenv("AZURE_OPENAI_EMBEDDING_DEPLOYMENT_NAME"),
+        "embedding_name": "text-embedding-ada-002",
+        "embedding_version": os.getenv("AZURE_OPENAI_EMBEDDING_API_VERSION")
     }
-    num_missing_predictions = 0
-    for question_id, references in gold.items():
-        if question_id not in predicted:
-            num_missing_predictions += 1
-            max_answer_f1s.append(0.0)
-            max_evidence_f1s.append(0.0)
-            continue
-        answer_f1s_and_types = [
-            (token_f1_score(predicted[question_id]["answer"], reference["answer"]),
-             reference["type"])
-            for reference in gold[question_id]
-        ]
-        max_answer_f1, answer_type = sorted(answer_f1s_and_types, key=lambda x: x[0], reverse=True)[0]
-        max_answer_f1s.append(max_answer_f1)
-        max_answer_f1s_by_type[answer_type].append(max_answer_f1)
-        evidence_f1s = [
-            paragraph_f1_score(predicted[question_id]["evidence"], reference["evidence"])
-            for reference in gold[question_id]
-        ]
-        max_evidence_f1s.append(max(evidence_f1s))
 
-    mean = lambda x: sum(x) / len(x) if x else 0.0
-    return {
-        "Answer F1": mean(max_answer_f1s),
-        "Answer F1 by type": {key: mean(value) for key, value in max_answer_f1s_by_type.items()},
-        "Evidence F1": mean(max_evidence_f1s),
-        "Missing predictions": num_missing_predictions
-    }
+    # Chat model
+    os.environ["AZURE_OPENAI_API_KEY"] = os.getenv("AZURE_OPENAI_GPT_API_KEY")
+    azure_model = AzureChatOpenAI(
+        openai_api_version=azure_configs["chat_version"],
+        azure_endpoint=azure_configs["chat_base_url"],
+        azure_deployment=azure_configs["chat_deployment"],
+        model=azure_configs["chat_name"],
+        validate_base_url=False,
+    )
+    print(azure_model)
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--predictions",
-        type=str,
-        required=True,
-        help="""JSON lines file with each line in format:
-                {'question_id': str, 'predicted_answer': str, 'predicted_evidence': List[str]}"""
+    # Embedding model
+    os.environ["AZURE_OPENAI_API_KEY"] = os.getenv("AZURE_OPENAI_EMBEDDING_API_KEY")
+    azure_embeddings = AzureOpenAIEmbeddings(
+        openai_api_version=azure_configs["embedding_version"],
+        azure_endpoint=azure_configs["embedding_base_url"],
+        azure_deployment=azure_configs["embedding_deployment"],
+        model=azure_configs["embedding_name"],
     )
-    parser.add_argument(
-        "--gold",
-        type=str,
-        required=True,
-        help="Test or dev set from the released dataset"
-    )
-    parser.add_argument(
-        "--text_evidence_only",
-        action="store_true",
-        help="If set, the evaluator will ignore evidence in figures and tables while reporting evidence f1"
-    )
-    args = parser.parse_args()
-    gold_data = json.load(open(args.gold))
-    gold_answers_and_evidence = get_answers_and_evidence(gold_data, args.text_evidence_only)
-    predicted_answers_and_evidence = {}
-    for line in open(args.predictions):
-        prediction_data = json.loads(line)
-        predicted_answers_and_evidence[prediction_data["question_id"]] = {
-            "answer": prediction_data["predicted_answer"],
-            "evidence": prediction_data["predicted_evidence"]
-        }
-    evaluation_output = evaluate(gold_answers_and_evidence, predicted_answers_and_evidence)
-    print(json.dumps(evaluation_output, indent=2))
+    print(azure_embeddings)
+
+
+  
+
+    with open (dataset_json_path, 'r') as dataset:
+        qasper_dataset=json.load(dataset)
+        dataframe = Dataset.from_pandas(pd.DataFrame(data=qasper_dataset))
+        print(dataframe)
+        
+        result = evaluate(dataframe, metrics=metrics, llm=azure_model, embeddings=azure_embeddings)
+
+    print(result)
+
+    df = result.to_pandas()
+    print(df.head())
+    df.to_csv(result_csv_path, sep=',', index=False, encoding='utf-8')
+
+if __name__ == '__main__':
+    baseline_endToend_eval()
+    gptutor_endToend_eval()
