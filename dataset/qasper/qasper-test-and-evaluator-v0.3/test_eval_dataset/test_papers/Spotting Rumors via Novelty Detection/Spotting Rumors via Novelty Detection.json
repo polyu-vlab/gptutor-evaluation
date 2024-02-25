@@ -1,0 +1,18 @@
+{
+    "TestEvalQA5": {
+        "question": "What previous methods do they compare against?",
+        "ground_truth": "To evaluate our new features for rumour detection, we compare them with two state-of-the-art early rumour detection baselines Liu et. al (2015) and Yang et. al (2012), which we re-implemented.. Alternative ground truth: They compare against two other methods that apply message-,user-, topic- and propagation-based features and rely on an SVM classifier. One perform early rumor detection and operates with a delay of 24 hrs, while the other requires a cluster of 5 repeated messages to judge them for rumors.. Alternative ground truth: To evaluate our new features for rumour detection, we compare them with two state-of-the-art early rumour detection baselines Liu et. al (2015) and Yang et. al (2012), which we re-implemented. "
+    },
+    "TestEvalQA6": {
+        "question": "What is their evaluation metric?",
+        "ground_truth": "The metrics are accuracy, detection error trade-off curves and computing efficiency. Alternative ground truth: Accuracy compared to two state-of-the-art baselines"
+    },
+    "TestEvalQA7": {
+        "question": "Are their methods fully supervised?",
+        "ground_truth": "No. They additionally use similarity to previously detected rumors to make the decision of whether a document is likely to be a rumor"
+    },
+    "TestEvalQA8": {
+        "question": "Do they build a dataset of rumors?",
+        "ground_truth": "We randomly collected 200 news articles about broad topics commonly reported by news wires over our target time period.. Alternative ground truth: Sina Weibo offers an official rumour debunking service, operated by trained human professionals. Following Yang et. al (2012) and Zhou et. al (2015), we use this service to obtain a high quality set of 202 confirmed rumours.. Alternative ground truth: rumours: Sina Weibo offers an official rumour debunking service, operated by trained human professionals. Following Yang et. al (2012) and Zhou et. al (2015), we use this service to obtain a high quality set of 202 confirmed rumours.. Alternative ground truth: Yes, consisting of trusted resources, rumours and non-rumours"
+    }
+}

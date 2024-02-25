@@ -1,0 +1,18 @@
+{
+    "TestEvalQA0": {
+        "question": "How big is the ANTISCAM dataset? ",
+        "ground_truth": "We collected 220 human-human dialogs. The average conversation length is 12.45 turns and the average utterance length is 11.13 words.. Alternative ground truth: We posted a role-playing task on the Amazon Mechanical Turk platform and collected a typing conversation dataset named AntiScam. We collected 220 human-human dialogs. The average conversation length is 12.45 turns and the average utterance length is 11.13 words."
+    },
+    "TestEvalQA1": {
+        "question": "How is intent annotated?",
+        "ground_truth": "using a role-playing task on the Amazon Mechanical Turk platform and collecting typed conversations. Alternative ground truth: Separate on-task and off task intents and annotate on task for data set specific intents, while annotating  off task intents with a fixed set of general intents.. Alternative ground truth: On-task dialog are annotated as on-task intents , the other dialog are annotated as pre-defined off-task intents."
+    },
+    "TestEvalQA2": {
+        "question": "What are the baselines outperformed by this work?",
+        "ground_truth": "TransferTransfo and Hybrid . Alternative ground truth: We observe that MISSA outperforms two baseline models (TransferTransfo and hybrid model) on almost all the metrics on both datasets.. Alternative ground truth: We propose Multiple Intents and Semantic Slots Annotation Neural Network (MISSA) to combine the advantages of both template and generation models and takes advantage from the hierarchical annotation at the same time. "
+    },
+    "TestEvalQA3": {
+        "question": "What are the evaluation metrics and criteria used to evaluate the model performance?",
+        "ground_truth": "Automatic evaluation metrics (Perplexity (PPl), Response-Intent Prediction (RIP), Response-Slot Prediction(RSP), Extended Response-Intent Prediction(ERIP),  Extended Response-Slot Prediction (ERSP)) and Human Evaluation Metrics (Fluency, Coherence, Engagement, Lenhth, TaskSuc). Alternative ground truth: Automatic metrics used: Perplexity, RIP, RSP, ERIP ERSP.\nHuman evaluation metrics used: Fluency, Coherence, Engagement, Dialog length and Task Success Score."
+    }
+}

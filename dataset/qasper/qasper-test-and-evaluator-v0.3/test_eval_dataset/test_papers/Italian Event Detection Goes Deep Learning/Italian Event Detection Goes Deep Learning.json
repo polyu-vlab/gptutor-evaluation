@@ -1,0 +1,14 @@
+{
+    "TestEvalQA15": {
+        "question": "What are the contributions of this paper?",
+        "ground_truth": "(1) Using seq2seq for event detection and classification in Italian (2) Investigating quality of Italian word embeddings for this task (3) Comparison to state-of-the-art discrete classifier. Alternative ground truth: Adapting a seq2seq neural system to event detection and classification for Italian, investigating the quality of existing embeddings for the task, and comparing against a state-of-the-art discrete classifier."
+    },
+    "TestEvalQA16": {
+        "question": "What are the baselines this paper uses?",
+        "ground_truth": "FBK-HLT is a cascade of two SVM classifiers (one for detection and one for classification) based on rich linguistic features.. Alternative ground truth: FBK-HLT - a cascade of two SVM classifiers (one for detection and one for classification). Alternative ground truth: We also report the results of the best system that participated at EVENTI Subtask B, FBK-HLT BIBREF23 . FBK-HLT is a cascade of two SVM classifiers (one for detection and one for classification) based on rich linguistic features. "
+    },
+    "TestEvalQA17": {
+        "question": "Can the model be extended to other languages?",
+        "ground_truth": ""
+    }
+}

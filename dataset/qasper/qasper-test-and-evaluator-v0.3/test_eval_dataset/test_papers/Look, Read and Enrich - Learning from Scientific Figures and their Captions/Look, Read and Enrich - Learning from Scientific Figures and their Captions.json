@@ -1,0 +1,18 @@
+{
+    "TestEvalQA29": {
+        "question": "What language are the captions in?",
+        "ground_truth": "English. Alternative ground truth: We use HolE BIBREF19 and Vecsigrafo BIBREF16 to learn semantic embeddings.. Alternative ground truth: We used the January 2018 English Wikipedia dataset as one of the corpora on which to train Vecsigrafo."
+    },
+    "TestEvalQA30": {
+        "question": "What ad-hoc approaches are explored?",
+        "ground_truth": "The selected baselines (Embedding network, 2WayNet, VSE++ and DSVE-loc) report results obtained on the Flickr30K and COCO datasets, which we also include in table TABREF20."
+    },
+    "TestEvalQA31": {
+        "question": "What supervised baselines did they compare with?",
+        "ground_truth": "The direct combination baseline computes the figure-caption correspondence through the scalar product between the softmax outputs of both networks.. Alternative ground truth: The supervised pre-training baseline freezes the weights of the feature extraction trunks from the two trained networks, assembles them in the FCC architecture as shown in section SECREF6, and trains the FCC task on the fully connected layers.. Alternative ground truth: The direct combination baseline computes the figure-caption correspondence through the scalar product between the softmax outputs of both networks.. Alternative ground truth: The supervised pre-training baseline freezes the weights of the feature extraction trunks from the two trained networks, assembles them in the FCC architecture as shown in section SECREF6, and trains the FCC task on the fully connected layers."
+    },
+    "TestEvalQA32": {
+        "question": "Is the data specific to a domain?",
+        "ground_truth": "As opposed to SciGraph or SemScholar, specific of the scientific domain, Wikipedia is a source of general-purpose information.. Alternative ground truth: To this purpose, we explore how multi-modal scientific knowledge can be learnt from the correspondence between figures and captions."
+    }
+}

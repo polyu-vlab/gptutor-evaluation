@@ -1,0 +1,14 @@
+{
+    "TestEvalQA22": {
+        "question": "How do data-driven models usually respond to abuse?",
+        "ground_truth": "either by refusing politely, or, with flirtatious responses, or, by retaliating. Alternative ground truth: Data-driven systems rank low in general. Neuralconvo and Cleverbot are the only ones that ever politely refuse and we attribute their improved ratings to this. In turn, the “clean” seq2seq often produces responses which can be interpreted as flirtatious (44%), and ranks similarly to Annabelle Lee and Laurel Sweet, the only adult bots that politely refuses ( 16% of the time).. Alternative ground truth: flirt; retaliation"
+    },
+    "TestEvalQA23": {
+        "question": "How much data did they gather from crowdsourcing?",
+        "ground_truth": "We first gather abusive utterances from 600K conversations with US-based customers.. Alternative ground truth:  In total we collected 9960 HITs from 472 crowd workers. . Alternative ground truth:  In total we collected 9960 HITs from 472 crowd workers. "
+    },
+    "TestEvalQA24": {
+        "question": "How many different strategies were evaluated?",
+        "ground_truth": "14. Alternative ground truth: 12. Alternative ground truth: We put strategies used by state-of-the-art systems to the test in a large-scale, crowd-sourced evaluation. The full annotated corpus contains 2441 system replies, categorised into 14 response types, which were evaluated by 472 raters - resulting in 7.7 ratings per reply."
+    }
+}

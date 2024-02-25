@@ -1,0 +1,18 @@
+{
+    "TestEvalQA33": {
+        "question": "did they experiment with lexicons?",
+        "ground_truth": "In this paper we describe our system designed for the WASSA-2017 Shared Task on Emotion Intensity, which we tackle based on the premise of representation learning without the usage of external information, such as lexicons.. Alternative ground truth: In general, as Table TABREF13 shows, our intra-sentence attention RNN was able to outperform the Weka baseline BIBREF5 on the development dataset by a solid margin. . Alternative ground truth: While the structure of our introduced model allows us to easily include more linguistic features that could potentially improve our predictive power, such as lexicons, since our focus is to study sentence representation for emotion intensity, we do not experiment adding any additional sources of information as input."
+    },
+    "TestEvalQA34": {
+        "question": "what was the baseline?",
+        "ground_truth": "In general, as Table TABREF13 shows, our intra-sentence attention RNN was able to outperform the Weka baseline BIBREF5 on the development dataset by a solid margin.. Alternative ground truth: In general, as Table TABREF13 shows, our intra-sentence attention RNN was able to outperform the Weka baseline BIBREF5 on the development dataset by a solid margin. . Alternative ground truth: In general, as Table TABREF13 shows, our intra-sentence attention RNN was able to outperform the Weka baseline BIBREF5 on the development dataset by a solid margin. "
+    },
+    "TestEvalQA35": {
+        "question": "what was their result?",
+        "ground_truth": "Pearson correlation on sadness test data is 0.52, on joy test data is .537, on anger test data is 0.47, on fear data is 0.561.. Alternative ground truth: 0.689 on development and 0.522 on test set"
+    },
+    "TestEvalQA36": {
+        "question": "what dataset was used?",
+        "ground_truth": "To test our model, we experiment using the training, validation and test datasets provided for the shared task BIBREF5 , which include tweets for four emotions: joy, sadness, fear, and anger. . Alternative ground truth: To test our model, we experiment using the training, validation and test datasets provided for the shared task BIBREF5 , which include tweets for four emotions: joy, sadness, fear, and anger.. Alternative ground truth: Dataset of tweets provided for the shared task."
+    }
+}

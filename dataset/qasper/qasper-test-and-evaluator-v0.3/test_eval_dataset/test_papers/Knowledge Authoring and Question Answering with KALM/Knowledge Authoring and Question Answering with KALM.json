@@ -1,0 +1,14 @@
+{
+    "TestEvalQA12": {
+        "question": "What was their accuracy score?",
+        "ground_truth": "95.6% on knowledge authoring, 95% on the manually constructed QA dataset and 100% accuracy on the MetaQA dataset. Alternative ground truth: KALM achieves an accuracy of 95.6%—much higher than the other systems.\n\nFor KALM-QA, we eva. Alternative ground truth: KALM-QA achieves 100% accuracy—much higher than the state-of-the-art machine learning approach BIBREF14 .. Alternative ground truth: KALM achieves an accuracy of 95.6%, KALM-QA achieves 95% accuracy on the manually constructured general questions dataset based on the 50 logical frames and achieves 100% accuracy on MetaQA dataset"
+    },
+    "TestEvalQA13": {
+        "question": "What are the state-of-the-art systems?",
+        "ground_truth": "Based on the 50 frames, we have manually constructed 250 sentences that are adapted from FrameNet exemplar sentences and evaluate these sentences on KALM, SEMAFOR, SLING, and Stanford KBP system. KALM achieves an accuracy of 95.6%—much higher than the other systems.. Alternative ground truth: Experimental results show that both KALM and KALM-QA achieve superior accuracy as compared to the state-of-the-art systems.. Alternative ground truth: Based on the 50 frames, we have manually constructed 250 sentences that are adapted from FrameNet exemplar sentences and evaluate these sentences on KALM, SEMAFOR, SLING, and Stanford KBP system. "
+    },
+    "TestEvalQA14": {
+        "question": "What dataset did they evaluate on?",
+        "ground_truth": "dataset consisting 250 sentences adapted from FrameNet exemplar sentences, dataset consisting general questions based on 50 logical framesderived from FrameNet, MetaQA dataset. Alternative ground truth: a manually created dataset of 50 logical frames mostly derived from FrameNet, a manually constructed general questions dataset based on the 50 logical frames and MetaQA dataset. Alternative ground truth: For KALM-QA, we evaluate it on two datasets. The first dataset is manually constructed general questions based on the 50 logical frames. KALM-QA achieves an accuracy of 95% for parsing the queries. The second dataset we use is MetaQA dataset BIBREF14 , which contains contains almost 29,000 test questions and over 260,000 training questions."
+    }
+}

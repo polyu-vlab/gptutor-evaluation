@@ -1,0 +1,6 @@
+{
+    "TestEvalQA9": {
+        "question": "Which tasks are explored in this paper?",
+        "ground_truth": "We have conducted experiments to compare SLRTM with several strong topic model baselines on two tasks: generative model evaluation (i.e. test set perplexity) and document classification. . Alternative ground truth: We propose Sentence Level Recurrent Topic Model (SLRTM) to tackle the limitations of the aforementioned works.. Alternative ground truth: We have conducted experiments to compare SLRTM with several strong topic model baselines on two tasks: generative model evaluation (i.e. test set perplexity) and document classification.. Alternative ground truth: We have conducted experiments to compare SLRTM with several strong topic model baselines on two tasks: generative model evaluation (i.e. test set perplexity) and document classification."
+    }
+}

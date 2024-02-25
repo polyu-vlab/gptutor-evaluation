@@ -1,0 +1,13 @@
+End-to-End Trainable Non-Collaborative Dialog System
+OpenTapioca: Lightweight Entity Linking for Wikidata
+Spotting Rumors via Novelty Detection
+Sentence Level Recurrent Topic Model: Letting Topics Speak for Themselves
+TENER: Adapting Transformer Encoder for Named Entity Recognition
+Knowledge Authoring and Question Answering with KALM
+Italian Event Detection Goes Deep Learning
+Automatically Inferring Gender Associations from Language
+A Crowd-based Evaluation of Abuse Response Strategies in Conversational Agents
+A Dataset of German Legal Documents for Named Entity Recognition
+Character-Level Models versus Morphology in Semantic Role Labeling
+Look, Read and Enrich - Learning from Scientific Figures and their Captions
+EmoAtt at EmoInt-2017: Inner attention sentence embedding for Emotion Intensity

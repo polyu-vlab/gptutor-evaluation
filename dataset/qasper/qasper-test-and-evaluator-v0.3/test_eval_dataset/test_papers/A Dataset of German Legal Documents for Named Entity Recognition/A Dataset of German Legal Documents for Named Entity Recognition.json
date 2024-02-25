@@ -1,0 +1,6 @@
+{
+    "TestEvalQA25": {
+        "question": "Was the automatic annotation evaluated?",
+        "ground_truth": "All court decisions were annotated automatically for time expressions using a customised version of HeidelTime BIBREF19, which was adapted to the legal domain BIBREF20. This version of Heideltime achieves an F$_1$ value of 89.1 for partial identification and normalization.. Alternative ground truth: All court decisions were annotated automatically for time expressions using a customised version of HeidelTime BIBREF19, which was adapted to the legal domain BIBREF20.. Alternative ground truth: The dataset was thoroughly evaluated, see leitner2019fine for more details.. Alternative ground truth: All court decisions were annotated automatically for time expressions using a customised version of HeidelTime BIBREF19, which was adapted to the legal domain BIBREF20. This version of Heideltime achieves an F$_1$ value of 89.1 for partial identification and normalization.. Alternative ground truth: The dataset was thoroughly evaluated, see leitner2019fine for more details."
+    }
+}

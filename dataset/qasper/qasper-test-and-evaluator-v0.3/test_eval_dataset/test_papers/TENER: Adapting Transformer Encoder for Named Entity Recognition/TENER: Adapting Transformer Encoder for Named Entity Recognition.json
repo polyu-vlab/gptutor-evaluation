@@ -1,0 +1,10 @@
+{
+    "TestEvalQA10": {
+        "question": "How do they incorporate direction and relative distance in attention?",
+        "ground_truth": "by using an relative sinusodial positional embedding and unscaled attention. Alternative ground truth: In order to make the Transformer more suitable to the NER task, we introduce the direction-aware, distance-aware and un-scaled attention.. Alternative ground truth: calculate the attention scores  which can  distinguish different directions and distances"
+    },
+    "TestEvalQA11": {
+        "question": "Do they outperform current NER state-of-the-art models?",
+        "ground_truth": "Under the same pre-trained embeddings and external knowledge, our proposed modification outperforms previous models in the six datasets. . Alternative ground truth: Furthermore, in the six NER datasets, we achieve state-of-the-art performance among models without considering the pre-trained language models or designed features.. Alternative ground truth: Furthermore, in the six NER datasets, we achieve state-of-the-art performance among models without considering the pre-trained language models or designed features."
+    }
+}

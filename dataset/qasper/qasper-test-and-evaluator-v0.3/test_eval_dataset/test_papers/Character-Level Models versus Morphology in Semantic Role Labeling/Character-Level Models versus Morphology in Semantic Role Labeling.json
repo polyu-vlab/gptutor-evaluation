@@ -1,0 +1,14 @@
+{
+    "TestEvalQA26": {
+        "question": "What morphological typologies are considered?",
+        "ground_truth": "We analyze the results separately for agglutinative and fusional languages and reveal the links between certain linguistic phenomena and the IOC, IOW values.. Alternative ground truth: agglutinative and fusional. Alternative ground truth: We experiment with several languages with varying degrees of morphological richness and typology: Turkish, Finnish, Czech, German, Spanish, Catalan and English."
+    },
+    "TestEvalQA27": {
+        "question": "Does the model consider both derivational and inflectional morphology?",
+        "ground_truth": "Words are splitted from derivational boundaries in the original dataset, where each inflectional group is represented as a separate token. Alternative ground truth: Words are splitted from derivational boundaries in the original dataset, where each inflectional group is represented as a separate token."
+    },
+    "TestEvalQA28": {
+        "question": "What type of morphological features are used?",
+        "ground_truth": "Finally, gold morphological features are used as outputs of morph-language.. Alternative ground truth: For all languages, morph outputs the lemma of the token followed by language specific morphological tags.. Alternative ground truth: For all languages, morph outputs the lemma of the token followed by language specific morphological tags.. Alternative ground truth: In addition, English supplies nominal predicates annotated with semantic roles and does not provide any morphological feature.. Alternative ground truth: Datasets are provided with syntactic dependency annotations and semantic roles of verbal predicates."
+    }
+}

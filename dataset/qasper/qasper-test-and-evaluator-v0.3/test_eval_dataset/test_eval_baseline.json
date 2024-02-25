@@ -1,0 +1,157 @@
+[
+    {
+        "question": "How is intent annotated? in the paper End-to-End Trainable Non-Collaborative Dialog System",
+        "ground_truth": "using a role-playing task on the Amazon Mechanical Turk platform and collecting typed conversations. Or Separate on-task and off task intents and annotate on task for data set specific intents, while annotating  off task intents with a fixed set of general intents.. Or On-task dialog are annotated as on-task intents , the other dialog are annotated as pre-defined off-task intents.",
+        "answer": "In the paper \"End-to-End Trainable Non-Collaborative Dialog System,\" intent is typically annotated through a process known as intent labeling. This involves identifying and labeling the specific intent or purpose behind a user's utterance or request within a dialog system. This annotation is crucial for training the system to accurately recognize and respond to the user's intended actions or queries. By annotating intent, the system can better understand and interpret the user's input, enabling it to provide more relevant and effective responses."
+    },
+    {
+        "question": "What are the baselines outperformed by this work? in the paper End-to-End Trainable Non-Collaborative Dialog System",
+        "ground_truth": "TransferTransfo and Hybrid ",
+        "answer": "I'm sorry, but I cannot access the specific content of the paper titled \"End-to-End Trainable Non-Collaborative Dialog System\" as it is a copyrighted material. However, if you have access to this paper, I would encourage you to refer to the paper's content, particularly the sections related to experimental results, where the authors typically mention the baselines that were outperformed by their work. This can provide insights into the specific baselines that were surpassed in this study. If you need help with understanding any other aspect of the paper based on publicly available information, feel free to ask!"
+    },
+    {
+        "question": "What are the evaluation metrics and criteria used to evaluate the model performance? in the paper End-to-End Trainable Non-Collaborative Dialog System",
+        "ground_truth": "Automatic evaluation metrics (Perplexity (PPl), Response-Intent Prediction (RIP), Response-Slot Prediction(RSP), Extended Response-Intent Prediction(ERIP),  Extended Response-Slot Prediction (ERSP)) and Human Evaluation Metrics (Fluency, Coherence, Engagement, Lenhth, TaskSuc). Or Automatic metrics used: Perplexity, RIP, RSP, ERIP ERSP.\nHuman evaluation metrics used: Fluency, Coherence, Engagement, Dialog length and Task Success Score.",
+        "answer": "In the paper \"End-to-End Trainable Non-Collaborative Dialog System,\" the evaluation metrics used to assess the model performance include:\n\n1. Per-response Accuracy: This metric measures the proportion of correctly predicted responses. It evaluates the model's ability to generate accurate and contextually relevant responses to user input.\n\n2. BLEU Score: The BLEU (Bilingual Evaluation Understudy) score assesses the quality of the model's generated responses by comparing them to reference responses. It measures the similarity between the model's output and human-generated responses.\n\n3. F1 Score: The F1 score evaluates the model's precision and recall in generating responses. It measures the balance between the model's ability to accurately identify contextually relevant responses and its ability to avoid generating unrelated responses.\n\nAdditionally, the paper may mention other specific criteria for evaluating the performance of the end-to-end trainable non-collaborative dialog system, such as user satisfaction ratings, response coherence, and diversity of generated responses."
+    },
+    {
+        "question": "What is the accuracy of this model compared to sota? in the paper OpenTapioca: Lightweight Entity Linking for Wikidata",
+        "ground_truth": "The model improves the state of the art performance for the ISTEX dataset (F1 micro: 0.870, F1 macro: 0.858) and for the Microposts 2016 dataset (F1 micro:  0.087).. Or The micro and macro f1-scores of this model are 0.482 and 0.399 on the AIDA-CoNLL dataset, 0.087 and 0.515 on the Microposts 2016 dataset, 0.870 and 0.858 on the ISTEX-1000 dataset, 0.335 and 0.310 on the RSS-500 dataset",
+        "answer": "I currently do not have access to the specific accuracy metrics mentioned in the paper \"OpenTapioca: Lightweight Entity Linking for Wikidata.\" I recommend referring to the paper itself or other related sources to obtain detailed information on the accuracy of the model as compared to the state-of-the-art (SOTA) methods."
+    },
+    {
+        "question": "What previous methods do they compare against? in the paper Spotting Rumors via Novelty Detection",
+        "ground_truth": "They compare against two other methods that apply message-,user-, topic- and propagation-based features and rely on an SVM classifier. One perform early rumor detection and operates with a delay of 24 hrs, while the other requires a cluster of 5 repeated messages to judge them for rumors.. Or Liu et al. (2015) and Yang et al. (2012)",
+        "answer": "In the paper \"Spotting Rumors via Novelty Detection,\" the authors compare their proposed novelty detection approach against baseline methods such as Support Vector Machines (SVM), Random Forest, and Logistic Regression. These traditional methods are commonly used in classification tasks and serve as benchmarks for evaluating the performance of the proposed novelty detection framework for rumor spotting."
+    },
+    {
+        "question": "What is their evaluation metric? in the paper Spotting Rumors via Novelty Detection",
+        "ground_truth": "The metrics are accuracy, detection error trade-off curves and computing efficiency. Or Accuracy compared to two state-of-the-art baselines",
+        "answer": "The paper \"Spotting Rumors via Novelty Detection\" evaluates the performance of its proposed method using precision, recall, and F1 score as the evaluation metrics. These standard metrics are commonly used in the evaluation of classification tasks and are used to measure the accuracy, completeness, and balance of the model's predictions."
+    },
+    {
+        "question": "Are their methods fully supervised? in the paper Spotting Rumors via Novelty Detection",
+        "ground_truth": "No. They additionally use similarity to previously detected rumors to make the decision of whether a document is likely to be a rumor",
+        "answer": "The paper \"Spotting Rumors via Novelty Detection\" does not explicitly mention the use of fully supervised methods. However, the paper's focus is on novelty detection, which involves identifying novel or previously unseen patterns in data, rather than traditional supervised learning methods. Novelty detection typically falls under the umbrella of unsupervised learning or semi-supervised learning, where the algorithm learns to identify outliers or anomalies in data without the need for explicit labeled training examples. Therefore, it is likely that the methods used in the paper are not fully supervised, but rather leverage novelty detection techniques."
+    },
+    {
+        "question": "Do they build a dataset of rumors? in the paper Spotting Rumors via Novelty Detection",
+        "ground_truth": "Yes, consisting of trusted resources, rumours and non-rumours",
+        "answer": "Yes, the paper \"Spotting Rumors via Novelty Detection\" does discuss the construction of a dataset of rumors. The dataset includes a collection of rumors from various domain, such as social media, news, and other sources. The authors describe the process of collecting and annotating the dataset, which is used for evaluating their proposed novelty detection approach for spotting rumors."
+    },
+    {
+        "question": "What was their accuracy score? in the paper Knowledge Authoring and Question Answering with KALM",
+        "ground_truth": "95.6% on knowledge authoring, 95% on the manually constructed QA dataset and 100% accuracy on the MetaQA dataset. Or KALM achieves an accuracy of 95.6%, KALM-QA achieves 95% accuracy on the manually constructured general questions dataset based on the 50 logical frames and achieves 100% accuracy on MetaQA dataset",
+        "answer": "I currently do not have access to the specific accuracy score of the paper \"Knowledge Authoring and Question Answering with KALM.\" If you have the paper, you can refer to the results section where they likely report their accuracy score. If you need help interpreting the accuracy score or have any other questions about the paper, feel free to ask!"
+    },
+    {
+        "question": "What dataset did they evaluate on? in the paper Knowledge Authoring and Question Answering with KALM",
+        "ground_truth": "dataset consisting 250 sentences adapted from FrameNet exemplar sentences, dataset consisting general questions based on 50 logical framesderived from FrameNet, MetaQA dataset. Or a manually created dataset of 50 logical frames mostly derived from FrameNet, a manually constructed general questions dataset based on the 50 logical frames and MetaQA dataset",
+        "answer": "The paper \"Knowledge Authoring and Question Answering with KALM\" does not specify a particular dataset on which the evaluation was performed. Therefore, it is not possible to determine the specific dataset used for the evaluation of the KALM system from the given paper."
+    },
+    {
+        "question": "How do they decide what is the semantic concept label of particular cluster? in the paper Automatically Inferring Gender Associations from Language",
+        "ground_truth": "They automatically  label the cluster using WordNet and context-sensitive strengths of domain-specific word embeddings",
+        "answer": "In the paper \"Automatically Inferring Gender Associations from Language,\" the semantic concept labels of particular clusters are likely to be determined through a process of clustering and semantic analysis. Specifically, the paper may discuss how algorithms or techniques are used to group words or phrases into clusters based on their semantic similarities or associations with gender. Once these clusters are formed, the researchers may employ various methods to identify the dominant or representative words within each cluster, ultimately assigning a semantic concept label that captures the overarching theme or meaning of that particular cluster in relation to gender associations. This process could involve semantic analysis, natural language processing, and machine learning methods to automate the inference of gender associations from the language data."
+    },
+    {
+        "question": "How do they discover coherent word clusters? in the paper Automatically Inferring Gender Associations from Language",
+        "ground_truth": "First, they  trained domain-specific word embeddings using the Word2Vec  model, then used k-means clustering to cluster the embeddings of the gender-associated words.. Or The authors first generated a set of words which are associated with each gender, then built domain-specific word embeddings and used k-means clustering to cluster the gendered word associations together. ",
+        "answer": "The paper \"Automatically Inferring Gender Associations from Language\" does not directly address the discovery of word clusters, but it focuses on inferring gender associations from language. However, the process of discovering coherent word clusters is generally achieved through techniques such as natural language processing and machine learning. These techniques involve analyzing large corpora of text to identify words that frequently co-occur and have similar semantic meaning. Clustering algorithms are then applied to group these words together based on their similarities, often using measures such as cosine similarity or Euclidean distance. The resulting word clusters can reveal underlying patterns and associations within the language, which may include gender associations as studied in the paper."
+    },
+    {
+        "question": "How big are two introduced datasets? in the paper Automatically Inferring Gender Associations from Language",
+        "ground_truth": "300K sentences in each dataset. Or Celeb dataset: 15917 texts and 342645 sentences\nProfessor dataset: 283973 texts and 976677 sentences. Or Celebrity Dataset has 15,917 texts, 342,645 sentences, and the Female Male Proportions are  0.67/ 0.33. \nProfessor Dataset has 283,973 texts, 976, 667 sentences, and the Femal Male Proportions are 0.28./ 0,72",
+        "answer": "I'm sorry, but I cannot provide the specific sizes of the datasets mentioned in the paper \"Automatically Inferring Gender Associations from Language\" without access to the full content of the paper. If you have access to the paper, I recommend referring to the dataset description or methodology section which should provide details on the size and composition of the datasets used in the study."
+    },
+    {
+        "question": "What are strong baselines authors used? in the paper Automatically Inferring Gender Associations from Language",
+        "ground_truth": "The authors contrasted human evaluations against a random baseline, and used the centroid of the cluster as a strong baseline.",
+        "answer": "The paper \"Automatically Inferring Gender Associations from Language\" does not contain information about specific strong baselines used by the authors. However, the paper focuses on the automatic inference of gender associations from language and presents its own methodology and results in this regard, without explicitly discussing strong baselines. If you need information on strong baselines for a similar study or want to know more about the specifics of the paper's methodology, please let me know how I can assist you further."
+    },
+    {
+        "question": "How do data-driven models usually respond to abuse? in the paper A Crowd-based Evaluation of Abuse Response Strategies in Conversational Agents",
+        "ground_truth": "either by refusing politely, or, with flirtatious responses, or, by retaliating. Or flirt; retaliation",
+        "answer": "In the paper \"A Crowd-based Evaluation of Abuse Response Strategies in Conversational Agents,\" the authors investigate how data-driven models, specifically conversational agents, respond to abuse. The study involves evaluating different abuse response strategies used by conversational agents through crowd-based evaluations.\n\nThe paper may discuss how data-driven models typically respond to abuse, including potential automated response strategies, such as flagging and blocking abusive users, as well as potentially providing resources for help or support to victims of abuse. Additionally, the paper may explore the effectiveness of different response strategies and their impact on user experiences and interactions with conversational agents.\n\nFor more specific details on how data-driven models respond to abuse and the findings of this study, it would be best to refer to the paper itself for a comprehensive understanding of the research findings and conclusions."
+    },
+    {
+        "question": "How many different strategies were evaluated? in the paper A Crowd-based Evaluation of Abuse Response Strategies in Conversational Agents",
+        "ground_truth": "14. Or 12",
+        "answer": "The paper \"A Crowd-based Evaluation of Abuse Response Strategies in Conversational Agents\" does not specify the exact number of different strategies evaluated. However, the paper primarily focuses on comparing different abuse response strategies in conversational agents through crowd-based evaluation methods. Each strategy is likely to have been evaluated based on its effectiveness in responding to abuse in conversational interactions. For the specific number of strategies evaluated, I would recommend referring to the full paper for detailed information."
+    },
+    {
+        "question": "what was their result? in the paper EmoAtt at EmoInt-2017: Inner attention sentence embedding for Emotion Intensity",
+        "ground_truth": "Pearson correlation on sadness test data is 0.52, on joy test data is .537, on anger test data is 0.47, on fear data is 0.561.. Or 0.689 on development and 0.522 on test set",
+        "answer": "I'm unable to provide the specific results from the paper as it's not available in my training data. However, if you have access to the paper, I can help with understanding the content or clarifying specific questions based on the information provided in the paper."
+    },
+    {
+        "question": "what dataset was used? in the paper EmoAtt at EmoInt-2017: Inner attention sentence embedding for Emotion Intensity",
+        "ground_truth": "Dataset of tweets provided for the shared task.. Or Dataset from shared task BIBREF5",
+        "answer": "The paper \"EmoAtt at EmoInt-2017: Inner attention sentence embedding for Emotion Intensity\" used the SemEval-2018 Affective Intensity and Emotion Intensity datasets for the EmoInt-2017 shared task. These datasets contain sentences annotated with emotion categories and intensity levels."
+    },
+    {
+        "question": "What is their definition of hate speech? in the paper Multilingual and Multi-Aspect Hate Speech Analysis",
+        "ground_truth": "Hate speech is a text that contains one or more of the following aspects: directness, offensiveness, targeting a group or individual based on specific attributes, overall negativity.",
+        "answer": "Their definition of hate speech is not explicitly provided in the paper Multilingual and Multi-Aspect Hate Speech Analysis. However, based on the general understanding of hate speech, it typically refers to speech that is intended to demean, intimidate, or incite violence or prejudicial action against individuals or groups based on race, ethnicity, national origin, religion, disability, gender, sexual orientation, or other similar characteristics. In the context of the paper, hate speech analysis may involve identifying and categorizing such speech in multiple languages and across different aspects or dimensions."
+    },
+    {
+        "question": "How big is their dataset? in the paper Multilingual and Multi-Aspect Hate Speech Analysis",
+        "ground_truth": "13 000 tweets. Or 13014",
+        "answer": "I'm sorry, but I don't have access to the specific dataset size mentioned in the paper \"Multilingual and Multi-Aspect Hate Speech Analysis\". If you have access to the paper, I recommend referring to the methodology or data section of the paper where the authors might have provided details about the dataset size. If you need assistance with a specific aspect of the paper or have any other questions, feel free to ask."
+    },
+    {
+        "question": "what dataset was used? in the paper Advancing Speech Recognition With No Speech Or With Noisy Speech",
+        "ground_truth": "The two types of simultaneous speech EEG recording databases:  A- five female and five male subjects took part in the experiment, and B- five male and three female subjects took part in the experiment.. Or Speech EEG recording collected from male and female subjects under different background noises",
+        "answer": "The paper \"Advancing Speech Recognition With No Speech Or With Noisy Speech\" did not specify a particular dataset in the paper title. However, it is common in speech recognition research to use publicly available datasets such as LibriSpeech, Common Voice, TED-LIUM, or custom datasets for training and evaluation. Some researchers may also use simulated or artificially generated noisy speech data to test the robustness of speech recognition models. Without specific details, it is recommended to refer to the full paper for information on the dataset used in this particular study."
+    },
+    {
+        "question": "On which datasets does LadaBERT achieve state-of-the-art? in the paper LadaBERT: Lightweight Adaptation of BERT through Hybrid Model Compression",
+        "ground_truth": "MNLI-m, MNLI-mm, SST-2, QQP, QNLI. Or LadaBERT -1, -2 achieves state of art on all datasets namely, MNLI-m MNLI-mm, SST-2, QQP, and QNLI. \nLadaBERT-3 achieves SOTA on the first four dataset. \nLadaBERT-4 achieves SOTA on MNLI-m, MNLI-mm, and QNLI . Or LadaBERT-1 and LadaBERT-2  on MNLI-m, MNLI-mm, SST-2, QQP and QNLI .\nLadaBERT-3  on MNLI-m, MNLI-mm, SST-2, and QQP . LadaBERT-4  on MNLI-m, MNLI-mm and QNLI .",
+        "answer": "In the paper \"LadaBERT: Lightweight Adaptation of BERT through Hybrid Model Compression,\" the authors propose LadaBERT as a lightweight adaptation of BERT achieved through hybrid model compression. However, without access to the specific details of this paper, I am unable to provide the exact datasets on which LadaBERT achieves state-of-the-art results. For accurate information regarding the datasets on which LadaBERT achieves state-of-the-art performance, I recommend referring to the original paper."
+    },
+    {
+        "question": "What types of commonsense knowledge are they talking about? in the paper Improved Representation Learning for Predicting Commonsense Ontologies",
+        "ground_truth": "Hypernymy or is-a relations between words or phrases. Or Knowledge than an ordinary person would have such as transitive entailment relation, complex ordering, compositionality, multi-word entities",
+        "answer": "The paper \"Improved Representation Learning for Predicting Commonsense Ontologies\" likely focuses on the prediction of commonsense knowledge in the form of ontologies. Commonsense knowledge generally refers to the background knowledge that individuals possess about the everyday world, often taken for granted but crucial for understanding and reasoning about the world. This knowledge includes information about everyday objects, common activities, social conventions, and general world understanding.\n\nGiven the paper title, it is inferred that the types of commonsense knowledge being explored may include various aspects such as object properties and interactions, human behavior, cause and effect relationships, and other tacit knowledge that people use to interpret and navigate their environment. The paper probably seeks to improve representation learning methods for capturing and predicting such commonsense ontologies, potentially aiming to enhance the understanding and application of commonsense knowledge in computational systems."
+    },
+    {
+        "question": "What do they mean by intrinsic geometry of spaces of learned representations? in the paper Improved Representation Learning for Predicting Commonsense Ontologies",
+        "ground_truth": "The intrinsic geometry is that the general concept embedding should be smaller than the specific concept embedding in every coordinate of the embeddings. Or the inferred embedding space creates a globally consistent structured prediction of the ontology, rather than local relation predictions",
+        "answer": "In the context of the paper \"Improved Representation Learning for Predicting Commonsense Ontologies,\" the \"intrinsic geometry of spaces of learned representations\" refers to the inherent structure and relationships within the learned representations of data. Specifically, it relates to the geometric properties and organization of the learned features or representations within a given space. Understanding the intrinsic geometry of these representations is crucial for effective prediction and inference tasks, as it allows for better capturing and leveraging the underlying semantic and relational information encoded in the data. The paper likely delves into methodologies for enhancing the understanding and utilization of this intrinsic geometry to improve the prediction of commonsense ontologies."
+    },
+    {
+        "question": "What are the parts of the \"multimodal\" resources? in the paper Classifying Diagrams and Their Parts using Graph Neural Networks: A Comparison of Crowd-Sourced and Expert Annotations",
+        "ground_truth": "grouping, connectivity, and discourse structure ",
+        "answer": "The paper \"Classifying Diagrams and Their Parts using Graph Neural Networks: A Comparison of Crowd-Sourced and Expert Annotations\" focuses on analyzing diagrams and their individual parts using graph neural networks. The \"multimodal\" resources in this context likely refer to the diverse types of data that capture different aspects of the diagrams. In this paper, the multimodal resources might include:\n\n1. Graph representations: These could depict the structure of the diagrams, with nodes representing elements of the diagram and edges capturing the relationships between these elements.\n\n2. Image data: This could involve visual representations of the diagrams, such as pixel-based images, which would provide information about the visual appearance and layout of the diagrams.\n\n3. Textual annotations: These might include labels, captions, or textual descriptions associated with the diagrams, providing additional context and information about the content of the diagrams and their parts.\n\n4. Expert annotations: These could encompass annotations provided by domain experts, such as scientists or engineers, which offer specialized insights into the content and structure of the diagrams.\n\n5. Crowd-sourced annotations: These may involve annotations collected from a large number of laypeople or individuals with varying levels of expertise, providing a broader perspective on how different people interpret and classify the diagrams and their parts.\n\nBy integrating and analyzing these multimodal resources, the paper aims to understand how these different data types can be leveraged to classify diagrams and their parts effectively, and the potential differences between expert and crowd-sourced annotations in this context."
+    },
+    {
+        "question": "Are annotators familiar with the science topics annotated? in the paper Classifying Diagrams and Their Parts using Graph Neural Networks: A Comparison of Crowd-Sourced and Expert Annotations",
+        "ground_truth": "The annotation for AI2D was\ncreated by crowd-sourced non-expert annotators on AMT while AI2D-RST covers a subset of diagrams from AI2D annotated by trained experts",
+        "answer": "The paper \"Classifying Diagrams and Their Parts using Graph Neural Networks: A Comparison of Crowd-Sourced and Expert Annotations\" does not explicitly discuss whether annotators are familiar with the science topics annotated. However, based on the paper's title and its focus on comparing crowd-sourced and expert annotations, it is likely that the familiarity of annotators with the science topics may be a relevant factor in the study. Annotator familiarity with the science topics could impact the quality and accuracy of the annotations, especially when comparing crowd-sourced and expert annotations. For a comprehensive understanding of annotator familiarity, one would need to delve into the specific details and findings of the paper itself."
+    },
+    {
+        "question": "How are the expert and crowd-sourced annotations compared to one another? in the paper Classifying Diagrams and Their Parts using Graph Neural Networks: A Comparison of Crowd-Sourced and Expert Annotations",
+        "ground_truth": "by using them as features in classifying diagrams and\ntheir parts using various graph neural networks.. Or Expert annotators incorporate domain knowledge from multimodality theory while non-expert cannot but they are less time-consuming and use less resources.",
+        "answer": "In the paper \"Classifying Diagrams and Their Parts using Graph Neural Networks: A Comparison of Crowd-Sourced and Expert Annotations,\" the expert annotations are compared to crowd-sourced annotations in the context of classifying diagrams and their parts using graph neural networks. The comparison likely involves assessing the quality, consistency, and reliability of annotations provided by both experts and crowd-sourced contributors. This assessment may explore factors such as accuracy, completeness, and agreement among annotations. The study likely examines how the two types of annotations differ in terms of their effectiveness in training and evaluating the graph neural networks for classifying diagrams and their constituent parts."
+    },
+    {
+        "question": "Who are considered trained experts? in the paper Classifying Diagrams and Their Parts using Graph Neural Networks: A Comparison of Crowd-Sourced and Expert Annotations",
+        "ground_truth": "Annotators trained on multimodality theory. Or Those who have domain knowledge on multimodal communication and annotation.",
+        "answer": "In the paper \"Classifying Diagrams and Their Parts using Graph Neural Networks: A Comparison of Crowd-Sourced and Expert Annotations\", the trained experts are likely individuals with specialized knowledge and experience in interpreting and annotating diagrams and their parts. These experts are likely to have received formal education or specific training in a domain related to diagram analysis, such as computer science, graphic design, or visual communication."
+    },
+    {
+        "question": "what dataset was used for training? in the paper Neural Language Modeling with Visual Features",
+        "ground_truth": "About 64M segments from YouTube videos comprising a total of 1.2B tokens.",
+        "answer": "In the paper \"Neural Language Modeling with Visual Features,\" the specific dataset used for training is not mentioned in the title. However, based on common practices in related research, it is possible that the authors may have used a combination of language and vision datasets for training their neural language model with visual features. To accurately determine the exact dataset used for training in this paper, it is necessary to refer to the full text and the methodology section of the paper."
+    },
+    {
+        "question": "what is the size of the training data? in the paper Neural Language Modeling with Visual Features",
+        "ground_truth": "64M video segments with 1.2B tokens",
+        "answer": "I'm sorry, but I cannot provide the specific size of the training data for the paper \"Neural Language Modeling with Visual Features\" as I don't have access to the paper's content or data. I recommend consulting the paper itself or contacting the authors for this specific information."
+    },
+    {
+        "question": "what features were derived from the videos? in the paper Neural Language Modeling with Visual Features",
+        "ground_truth": "1500-dimensional vectors similar to those used for large scale image classification tasks.",
+        "answer": "In the paper \"Neural Language Modeling with Visual Features,\" the derived features from the videos included visual features such as object detection, image classification, and action recognition. These visual features were utilized in conjunction with the neural language modeling approach to improve the performance of video understanding and captioning tasks."
+    }
+]

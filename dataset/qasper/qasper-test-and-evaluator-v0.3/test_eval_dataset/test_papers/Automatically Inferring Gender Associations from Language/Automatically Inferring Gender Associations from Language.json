@@ -1,0 +1,18 @@
+{
+    "TestEvalQA18": {
+        "question": "How do they decide what is the semantic concept label of particular cluster?",
+        "ground_truth": "They automatically  label the cluster using WordNet and context-sensitive strengths of domain-specific word embeddings. Alternative ground truth: To automatically label the clusters, we combined the grounded knowledge of WordNet BIBREF34 and context-sensitive strengths of domain-specific word embeddings. Our algorithm is similar to BIBREF28's approach, but we extend their method by introducing domain-specific word embeddings for clustering as well as a new technique for sense disambiguation."
+    },
+    "TestEvalQA19": {
+        "question": "How do they discover coherent word clusters?",
+        "ground_truth": "First, we trained domain-specific word embeddings using the Word2Vec BIBREF33 CBOW model ($w \\in R^{100}$). Then, we used k-means clustering to cluster the embeddings of the gender-associated words.. Alternative ground truth: First, they  trained domain-specific word embeddings using the Word2Vec  model, then used k-means clustering to cluster the embeddings of the gender-associated words.. Alternative ground truth: The authors first generated a set of words which are associated with each gender, then built domain-specific word embeddings and used k-means clustering to cluster the gendered word associations together. "
+    },
+    "TestEvalQA20": {
+        "question": "How big are two introduced datasets?",
+        "ground_truth": "300K sentences in each dataset. Alternative ground truth: Our contributions include:\n\nTwo datasets for studying language and gender, each consisting of over 300K sentences.. Alternative ground truth: Celeb dataset: 15917 texts and 342645 sentences\nProfessor dataset: 283973 texts and 976677 sentences"
+    },
+    "TestEvalQA21": {
+        "question": "What are strong baselines authors used?",
+        "ground_truth": "The authors contrasted human evaluations against a random baseline, and used the centroid of the cluster as a strong baseline.. Alternative ground truth: In our experiments, we tested the top 4 predicted labels and the centroid of the cluster as a strong baseline label. "
+    }
+}
