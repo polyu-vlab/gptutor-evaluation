@@ -1,7 +1,0 @@
-{
-    "question": "Which of the 12 languages showed the strongest tendency towards male defaults?",
-    "ground_truth": "Malay"
-}{
-    "question": "How many different sentence constructions are translated in gender neutral languages?",
-    "ground_truth": "17"
-}

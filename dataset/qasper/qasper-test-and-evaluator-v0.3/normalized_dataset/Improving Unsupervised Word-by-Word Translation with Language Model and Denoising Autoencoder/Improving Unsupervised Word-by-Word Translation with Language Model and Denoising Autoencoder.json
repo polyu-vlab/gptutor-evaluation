@@ -1,7 +1,0 @@
-{
-    "question": "What is reordering in the context of the paper?",
-    "ground_truth": "changing the order of the word-by-word translation so it matches the target language"
-}{
-    "question": "How does the paper use language model for context aware search?",
-    "ground_truth": "the language model is combined with cross-lingual word embedding to obtain context information in the word-by-word translation"
-}

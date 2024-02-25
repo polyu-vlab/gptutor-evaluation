@@ -1,7 +1,0 @@
-{
-    "question": "What features are extracted from text?",
-    "ground_truth": "word feature"
-}{
-    "question": "What features are extracted from images?",
-    "ground_truth": "LOC (Building, Suburb, Street, City, Country, Mountain, Highway, Forest, Coast and Map), ORG (Company Logo), PER (Human Face )."
-}

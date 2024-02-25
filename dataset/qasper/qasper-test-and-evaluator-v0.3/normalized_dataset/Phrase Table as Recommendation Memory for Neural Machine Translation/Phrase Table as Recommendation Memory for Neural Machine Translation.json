@@ -1,4 +1,0 @@
-{
-    "question": "by how much did their system improve?",
-    "ground_truth": "The average improvement for CH-EN is 3.99 BLEU points, for EN-JA it is 3.59 BLEU points."
-}

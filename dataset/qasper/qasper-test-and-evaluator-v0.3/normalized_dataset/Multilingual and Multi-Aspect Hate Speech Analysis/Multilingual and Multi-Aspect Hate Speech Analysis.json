@@ -1,7 +1,0 @@
-{
-    "question": "What is their definition of hate speech?",
-    "ground_truth": "Hate speech is a text that contains one or more of the following aspects: directness, offensiveness, targeting a group or individual based on specific attributes, overall negativity."
-}{
-    "question": "How big is their dataset?",
-    "ground_truth": "13 000 tweets"
-}

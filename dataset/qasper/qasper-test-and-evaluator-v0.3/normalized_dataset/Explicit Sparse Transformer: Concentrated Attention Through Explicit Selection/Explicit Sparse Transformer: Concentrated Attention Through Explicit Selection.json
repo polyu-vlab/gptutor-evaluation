@@ -1,7 +1,0 @@
-{
-    "question": "What do they mean by explicit selection of most relevant segments?",
-    "ground_truth": "It is meant that only most contributive k elements are reserved, while other elements are removed."
-}{
-    "question": "What datasets they used for evaluation?",
-    "ground_truth": "For En-De translation the newstest 2014 set from WMT 2014 En-De translation dataset, for En-Vi translation the tst2013 from IWSLT 2015 dataset. and for De-En translation the teste set from IWSLT 2014."
-}

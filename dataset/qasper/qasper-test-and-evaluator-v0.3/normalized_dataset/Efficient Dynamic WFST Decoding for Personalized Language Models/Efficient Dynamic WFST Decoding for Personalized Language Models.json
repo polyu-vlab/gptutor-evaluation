@@ -1,7 +1,0 @@
-{
-    "question": "What languages is the model tested on?",
-    "ground_truth": "English"
-}{
-    "question": "What is a personalized language model?",
-    "ground_truth": "A model that contains the expected user-specific entities."
-}

@@ -1,7 +1,0 @@
-{
-    "question": "what do they mean by description length?",
-    "ground_truth": "Minimum description length (MDL) as the basic framework to reconcile the two contradicting objectives: generality and specificity."
-}{
-    "question": "what evaluation metrics are used?",
-    "ground_truth": "coverage and precision"
-}

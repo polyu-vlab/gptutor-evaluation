@@ -1,4 +1,0 @@
-{
-    "question": "what ML approaches did they experiment with?",
-    "ground_truth": "MaxEnt, BiLSTM, BiLSTM+CRF"
-}

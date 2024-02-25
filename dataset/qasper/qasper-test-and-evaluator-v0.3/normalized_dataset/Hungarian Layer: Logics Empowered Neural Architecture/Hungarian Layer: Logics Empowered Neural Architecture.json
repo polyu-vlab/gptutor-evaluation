@@ -1,4 +1,0 @@
-{
-    "question": "By how much does their model outperform state-of-the-art baselines?",
-    "ground_truth": "0.78% over the best state-of-the-art baseline"
-}

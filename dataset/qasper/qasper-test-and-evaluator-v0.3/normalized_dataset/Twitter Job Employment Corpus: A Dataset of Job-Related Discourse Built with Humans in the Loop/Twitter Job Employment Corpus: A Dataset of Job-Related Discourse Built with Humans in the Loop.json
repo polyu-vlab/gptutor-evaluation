@@ -1,4 +1,0 @@
-{
-    "question": "How are the tweets selected?",
-    "ground_truth": "They collected tweets from US and then applied some filtering rules based on Lexicons"
-}

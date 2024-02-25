@@ -1,4 +1,0 @@
-{
-    "question": "How to extract affect attributes from the sentence?",
-    "ground_truth": "Using a dictionary of emotional words, LIWC, they perform keyword spotting."
-}

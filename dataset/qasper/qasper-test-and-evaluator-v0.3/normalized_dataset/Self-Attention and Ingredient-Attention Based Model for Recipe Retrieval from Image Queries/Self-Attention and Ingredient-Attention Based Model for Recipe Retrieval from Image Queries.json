@@ -1,7 +1,0 @@
-{
-    "question": "What are two baseline methods?",
-    "ground_truth": "Joint Neural Embedding (JNE)\nAdaMine"
-}{
-    "question": "How does model compare to the baselines?",
-    "ground_truth": "The model outperforms the two baseline models,  since it has higher recall values. "
-}

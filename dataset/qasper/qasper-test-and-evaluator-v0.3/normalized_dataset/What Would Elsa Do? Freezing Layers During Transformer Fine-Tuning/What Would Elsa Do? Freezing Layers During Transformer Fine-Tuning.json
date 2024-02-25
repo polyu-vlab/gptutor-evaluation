@@ -1,4 +1,0 @@
-{
-    "question": "Do they test against the large version of RoBERTa?",
-    "ground_truth": "For GLUE bencmark no, for dataset MRPC, SST-B, SST-2 and COLA yes."
-}

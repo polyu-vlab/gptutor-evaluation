@@ -1,7 +1,0 @@
-{
-    "question": "What is the problem of session segmentation?",
-    "ground_truth": "To retain near and context relevant dialog session utterances and to discard far, irrelevant ones."
-}{
-    "question": "What dataset do they use?",
-    "ground_truth": "chatting corpus from DuMi and conversation data from Douban forum"
-}

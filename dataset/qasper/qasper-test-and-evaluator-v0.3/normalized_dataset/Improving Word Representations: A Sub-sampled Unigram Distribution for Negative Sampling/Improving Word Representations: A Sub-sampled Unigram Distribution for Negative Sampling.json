@@ -1,4 +1,0 @@
-{
-    "question": "How is quality of the word vectors measured?",
-    "ground_truth": "They evaluate it on the word analogy, word similarity and synonym selection tasks using Pearson correlation coefficient as the metric."
-}

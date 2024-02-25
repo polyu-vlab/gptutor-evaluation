@@ -1,4 +1,0 @@
-{
-    "question": "How was the dataset collected?",
-    "ground_truth": "data was collected using crowdsourcing where speakers were recorded saying random ordered phrases for each intent twice"
-}

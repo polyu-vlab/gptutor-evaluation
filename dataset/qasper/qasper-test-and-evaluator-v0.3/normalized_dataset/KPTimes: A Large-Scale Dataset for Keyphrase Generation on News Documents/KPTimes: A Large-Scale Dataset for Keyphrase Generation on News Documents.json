@@ -1,4 +1,0 @@
-{
-    "question": "How do the editors' annotations differ from those in existing datasets?",
-    "ground_truth": "Existing datasets are annotated by non-experts who use a larger, less controlled indexed vocabulary lacking the domain expertise shown by the editors"
-}

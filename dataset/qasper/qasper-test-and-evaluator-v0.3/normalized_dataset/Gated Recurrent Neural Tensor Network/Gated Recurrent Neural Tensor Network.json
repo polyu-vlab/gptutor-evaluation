@@ -1,4 +1,0 @@
-{
-    "question": "How much improvement do the introduced model achieve compared to the previous models?",
-    "ground_truth": "GRURNTN, character: 0.06 absolute / 4.32% relative bits-per-character.\nLSTMRNTN, character: 0.03 absolute / 2.22% relative bits-per-character.\nGRURNTN, word: 10.4 absolute / 10.63% relative perplexity.\nLSTMRNTN, word: 11.29 absolute / 10.42% relative perplexity."
-}

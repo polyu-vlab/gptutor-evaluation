@@ -1,7 +1,0 @@
-{
-    "question": "Which dialogue data do they use to evaluate on?",
-    "ground_truth": "Datasets from PersonaChat and Wizard of Wikipedia tasks."
-}{
-    "question": "How much faster are pairwise annotations than other annotations?",
-    "ground_truth": "by 5 times"
-}

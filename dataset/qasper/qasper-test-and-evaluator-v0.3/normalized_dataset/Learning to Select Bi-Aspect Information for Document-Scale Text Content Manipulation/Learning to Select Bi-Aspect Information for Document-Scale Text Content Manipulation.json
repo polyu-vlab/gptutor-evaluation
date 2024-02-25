@@ -1,7 +1,0 @@
-{
-    "question": "How better are results of new model compared to competitive methods?",
-    "ground_truth": "For Document- level comparison, the model achieves highest CS precision and  F1 score and it achieves higher BLEU score that TMTE, Coatt, CCDT, and HEDT. \nIn terms of Human Evaluation, the model had the highest average score, the highest Fluency score, and the second highest Content Fidelity. \nIn terms of Sentence-level comparison the model had the highest Recall and F1 scores for Content Fidelity."
-}{
-    "question": "What is the size of built dataset?",
-    "ground_truth": "Document-level dataset has total of 4821 instances. \nSentence-level dataset has total of 45583 instances. "
-}
